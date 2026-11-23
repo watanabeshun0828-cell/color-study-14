@@ -1,0 +1,18 @@
+{
+  "appId": "color-study-14",
+  "title": "COLOR STUDY 14",
+  "word": "COLOR",
+  "qualName": "色彩検定3級",
+  "kind": "color",
+  "port": 4192,
+  "contentVersion": "2026.1",
+  "checkedAt": "2026-11-23",
+  "targetVersion": "2026-11-23確認時掲載の3級範囲・目次",
+  "guideCharacterUrl": "assets/mini-susume-kun.png",
+  "tagline": "色を比べ、配色の理由を言葉にする。",
+  "guideMessage": "条件を読み、手を動かして確かめましょう。分からないところは、講義と復習へ戻れます。",
+  "practiceNotice": "配色を動かし、数値の条件と選んだ理由を確かめます。実物の色票や印刷物での観察も組み合わせてください。",
+  "scopeNotice": "3級の重点教材です。2級・UC級とは分けて扱います。端末・表示設定・照明により色の見え方が異なり、近い色の見分けだけで正誤を決めません。",
+  "positioning": "非公式の学習補助教材・重点学習教材",
+  "notice": "14日は学習を分ける単位です。合格に必要な期間や標準学習時間ではありません。"
+}

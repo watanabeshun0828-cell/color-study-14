@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day12",
+  "day": 12,
+  "title": "衣服と室内へ配色を応用する",
+  "category": "配色の応用",
+  "goals": [
+    "素材・面積・役割を含めて配色を考える",
+    "画面試作と実物の確認を区別する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "canon-image",
+    "canon-mixing",
+    "practice-assumptions",
+    "cie-rendering",
+    "jcri-pccs",
+    "cie-adaptation"
+  ],
+  "sections": [
+    {
+      "id": "color26-day12-s1",
+      "title": "服の組合せと面積",
+      "paragraphs": [
+        "服装の配色は、トップス、ボトムス、小物など、どの部分にどの色を置くかも関係します。小さなバッグの色を服全体へ広げると、同じ色でも全体に占める割合が変わります。色名の組合せだけでなく、配置や面積を考えます。",
+        "同じような色でも、素材や照明によって見えは変わります。画面の矩形で作る比較は構成を考えるための近似です。着た人の好みや用途を尊重し、印象を一つの正解へ決めつけません。"
+      ],
+      "keyPoint": "部位・面積・素材・用途を合わせて考えます。",
+      "referenceIds": [
+        "aft-toc",
+        "canon-image",
+        "canon-mixing",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day12-s2",
+      "title": "室内では大きな面と照明を見る",
+      "paragraphs": [
+        "室内では、壁、床、天井、家具などで色の面積が大きく違います。小物のアクセントと壁面の色では役割も異なります。試作では、どの面が基調となるかを先に整理すると比較の理由を説明しやすくなります。",
+        "色を選ぶときは、昼間の光と使用する照明、周囲の素材など、用途に関係する条件でも確かめます。配色によって部屋の実寸が変わるわけではなく、感じる広がりなどの印象と実際の寸法を区別します。"
+      ],
+      "keyPoint": "大きな面、照明、実物の材料で確認を補います。",
+      "referenceIds": [
+        "aft-toc",
+        "cie-rendering",
+        "canon-image",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day12-q01",
+      "sectionId": "color26-day12-s1",
+      "category": "配色の応用",
+      "prompt": "小さな小物と服全体へ同じ色を使うときの違いとして考えるものは？",
+      "explanation": "同じ色でも、どこへどれだけ使うかが全体の構成に関わります。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "全体に占める色面積と役割"
+        },
+        {
+          "id": "c2",
+          "text": "同じ色なら全体の印象は絶対に同じ"
+        },
+        {
+          "id": "c3",
+          "text": "小物の色には照明が一切関係しない"
+        },
+        {
+          "id": "c4",
+          "text": "部位を変えても配置は同じと扱う"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day12-q02",
+      "sectionId": "color26-day12-s1",
+      "category": "配色の応用",
+      "prompt": "服の配色を画面の四角で比較した。適切な説明は？",
+      "explanation": "四角の配色は構成を比べる道具です。素材や照明、着用の条件は別に確認します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "光沢や生地まで測定済みである"
+        },
+        {
+          "id": "c2",
+          "text": "配色構成の近似試作であり、実物の素材の再現とは分ける"
+        },
+        {
+          "id": "c3",
+          "text": "着る人全員の好みを判定済みである"
+        },
+        {
+          "id": "c4",
+          "text": "PCCSの現物色票と完全一致する"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day12-q03",
+      "sectionId": "color26-day12-s1",
+      "category": "配色の応用",
+      "prompt": "トップスとボトムスの色相をそろえ、明るさに差を付けた。説明として合うのは？",
+      "explanation": "共通にした性質と変えた性質を分けて伝えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相も明るさもすべて同一にした"
+        },
+        {
+          "id": "c2",
+          "text": "印刷のCMYKの数を増やした"
+        },
+        {
+          "id": "c3",
+          "text": "色みの共通性と明るさの変化を使った"
+        },
+        {
+          "id": "c4",
+          "text": "配色の意図は一切説明できない"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day12-q04",
+      "sectionId": "color26-day12-s1",
+      "category": "配色の応用",
+      "prompt": "衣服の配色の印象が依頼者と違ったときは？",
+      "explanation": "衣服の表現には用途や個人の選択があり、説明と確認を通じて調整します。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "正解の色は一つなので好みを無視する"
+        },
+        {
+          "id": "c2",
+          "text": "相手の感じ方を機械的に不正解とする"
+        },
+        {
+          "id": "c3",
+          "text": "記録せずに同じ色だけを再提示する"
+        },
+        {
+          "id": "c4",
+          "text": "用途や好みを確認して、理由の分かる案を比べる"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day12-q05",
+      "sectionId": "color26-day12-s2",
+      "category": "配色の応用",
+      "prompt": "室内配色で壁と小さな飾りを同じ扱いにしない理由は？",
+      "explanation": "大きな面とアクセントでは、配色の中で占める割合と役割が違います。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "面積と全体での役割が異なるため"
+        },
+        {
+          "id": "c2",
+          "text": "壁の色だけは眼へ光が届かないため"
+        },
+        {
+          "id": "c3",
+          "text": "小物の色には明度がないため"
+        },
+        {
+          "id": "c4",
+          "text": "色名が違うと必ず用途が同じになるため"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day12-q06",
+      "sectionId": "color26-day12-s2",
+      "category": "配色の応用",
+      "prompt": "壁の色を選ぶ実物確認として適切なのは？",
+      "explanation": "用途に近い条件へ寄せることが、画面の近似を補う確認になります。",
+      "referenceIds": [
+        "cie-rendering",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "スマホの一画素だけで実物を保証する"
+        },
+        {
+          "id": "c2",
+          "text": "予定する照明や素材と合わせ、近い面積でも見比べる"
+        },
+        {
+          "id": "c3",
+          "text": "照明の違いはすべて無視する"
+        },
+        {
+          "id": "c4",
+          "text": "見本の色名が同じなら出力を確認しない"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day12-q07",
+      "sectionId": "color26-day12-s2",
+      "category": "配色の応用",
+      "prompt": "「この色なら部屋の実寸が2倍になる」という説明は？",
+      "explanation": "色による印象と、測定した寸法は別です。効果を一律の実寸変化として説明しません。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "配色の規則として常に成立する"
+        },
+        {
+          "id": "c2",
+          "text": "PCCSの測色結果を表す"
+        },
+        {
+          "id": "c3",
+          "text": "広がりの印象と実寸を混同している"
+        },
+        {
+          "id": "c4",
+          "text": "壁紙のRGBだけで計算できる"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day12-q08",
+      "sectionId": "color26-day12-s2",
+      "category": "配色の応用",
+      "prompt": "昼と夜で家具の色が違って感じられた。確認するものは？",
+      "explanation": "光源や周囲の条件を含めて記録し、用途に近い環境で確認します。",
+      "referenceIds": [
+        "cie-rendering",
+        "cie-adaptation",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "家具の色名の文字数だけ"
+        },
+        {
+          "id": "c2",
+          "text": "同じ家具だから光の影響はないとする"
+        },
+        {
+          "id": "c3",
+          "text": "片方の観察記録を誤りとして捨てる"
+        },
+        {
+          "id": "c4",
+          "text": "照明・周囲・素材など観察条件の違い"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

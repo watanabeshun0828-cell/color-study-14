@@ -1,0 +1,232 @@
+[
+  {
+    "id": "aft-level",
+    "title": "色彩検定 各級の目安",
+    "url": "https://www.aft.or.jp/pages/feature/level",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日時点の掲載案内",
+    "location": "3級の対象・学習範囲と試験方式",
+    "role": "出題範囲",
+    "notes": "3級と2級・UC級を区別。ページ内の出題例画像や解答番号は教材に取り込んでいない。"
+  },
+  {
+    "id": "aft-toc",
+    "title": "色彩検定3級 公式テキスト目次",
+    "url": "https://www.aft.or.jp/images/text_of-3st-grade_mokuji.pdf",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日時点の掲載3級目次。年版の表示は未確認",
+    "location": "1ページの目次のみ",
+    "role": "出題範囲",
+    "notes": "学ぶ項目の選定に使用。テキスト本文、公式配色例、色票は取得・転載していない。"
+  },
+  {
+    "id": "aft-products",
+    "title": "色彩検定 公式テキストの案内",
+    "url": "https://www.aft.or.jp/pages/official-product-orders/",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "確認時の3級掲載版 ISBN978-4-909928-03-0。年版の明示なし",
+    "location": "3級書誌情報、印刷の色管理、実物カラーカードに関する案内",
+    "role": "出題範囲",
+    "notes": "現在掲載の対象版の特定と画面学習の限界の確認。購入操作は行っていない。"
+  },
+  {
+    "id": "aft-exam",
+    "title": "色彩検定 受検案内",
+    "url": "https://www.aft.or.jp/exam-orders",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年度の掲載案内",
+    "location": "3級の方式と2026年度の案内",
+    "role": "出題範囲",
+    "notes": "掲載された夏期・冬期試験日は確認日より前。次回受検日は最新案内を別途確認する。"
+  },
+  {
+    "id": "jcri-pccs",
+    "title": "PCCSの開発者による体系の説明",
+    "url": "https://www.jcri.jp/achievement_1",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日に掲載を確認したPCCS概説。改訂年表記なし",
+    "location": "色相・トーン・系統色名の説明",
+    "role": "事実の根拠",
+    "notes": "24色相、トーンの考え方などの概念を参照。図・表・RGB色票データを複製していない。"
+  },
+  {
+    "id": "css-color4",
+    "title": "CSS Color Module Level 4",
+    "url": "https://www.w3.org/TR/css-color-4/",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月18日 Candidate Recommendation Draft",
+    "location": "5章sRGB、7章HSL",
+    "role": "技術仕様",
+    "notes": "HSLはsRGBへ解決される表示形式。PCCSの明度・彩度とは同一の尺度ではない。"
+  },
+  {
+    "id": "wcag-contrast",
+    "title": "WCAG 2.2 コントラスト最低基準の解説",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年10月4日更新のWCAG2.2解説",
+    "location": "SC1.4.3、relative luminance、contrast ratio",
+    "role": "技術仕様",
+    "notes": "Web実務の補足として使用。色彩検定3級の合格基準やPCCSの色差尺度には使わない。"
+  },
+  {
+    "id": "nei-eye",
+    "title": "National Eye Institute: How the Eyes Work",
+    "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2022年4月20日更新の掲載記事",
+    "location": "光から網膜・視神経・脳への流れ",
+    "role": "事実の根拠",
+    "notes": "文章・図の転載や書き換え元にはせず、知識の確認に使用。"
+  },
+  {
+    "id": "cie-cones",
+    "title": "CIE e-ILV: 錐体",
+    "url": "https://www.cie.co.at/eilvterm/17-22-002",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-002の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-rods",
+    "title": "CIE e-ILV: 桿体",
+    "url": "https://www.cie.co.at/eilvterm/17-22-003",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-003の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-adaptation",
+    "title": "CIE e-ILV: 色順応",
+    "url": "https://www.cie.co.at/eilvterm/17-22-013",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-013の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-hue",
+    "title": "CIE e-ILV: 色相",
+    "url": "https://www.cie.co.at/eilvterm/17-22-067",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-067の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-lightness",
+    "title": "CIE e-ILV: 明度",
+    "url": "https://www.cie.co.at/eilvterm/17-22-063",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-063の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-chroma",
+    "title": "CIE e-ILV: クロマ",
+    "url": "https://www.cie.co.at/eilvterm/17-22-074",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-074の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-additive",
+    "title": "CIE e-ILV: 加法混色",
+    "url": "https://www.cie.co.at/eilvterm/17-23-030",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-23-030の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-rendering",
+    "title": "CIE e-ILV: 演色",
+    "url": "https://www.cie.co.at/eilvterm/17-22-107",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-107の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-contrast",
+    "title": "CIE e-ILV: 知覚的な対比",
+    "url": "https://www.cie.co.at/eilvterm/17-22-089",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-089の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "cie-induction",
+    "title": "CIE e-ILV: 色の誘導",
+    "url": "https://www.cie.co.at/eilvterm/17-22-075",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "CIE S 017:2020 第2版。項目公表2020年12月",
+    "location": "17-22-075の概念定義",
+    "role": "事実の根拠",
+    "notes": "定義を事実確認に用い、原文は転載せず初心者向けに新しく説明した。"
+  },
+  {
+    "id": "canon-mixing",
+    "title": "光の三原色と色材の三原色",
+    "url": "https://global.canon/ja/technology/kids/mystery/m_04_04.html",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日確認の掲載記事。年版表記なし",
+    "location": "RGBとCMY、実際の印刷と画面の違い",
+    "role": "事実の根拠",
+    "notes": "概念の確認に使用。元の記事の図や配色を複製していない。"
+  },
+  {
+    "id": "canon-rgb",
+    "title": "RGBによる表示の説明",
+    "url": "https://global.canon/ja/technology/kids/mystery/m_04_02.html",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日確認の掲載記事。年版表記なし",
+    "location": "RGBと印刷のCMYK",
+    "role": "事実の根拠",
+    "notes": "表示の仕組みの参考。RGBで人の見える全色を再現できるとは記述しない。"
+  },
+  {
+    "id": "canon-image",
+    "title": "色のイメージに関する解説",
+    "url": "https://global.canon/ja/technology/kids/mystery/m_04_06.html",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日確認の掲載記事。年版表記なし",
+    "location": "色相環、暖色・寒色、文化や目的との関係",
+    "role": "事実の根拠",
+    "notes": "一般的な傾向の確認に用いる。国・民族に一律の好みを割り当てたり健康効果を保証したりしない。"
+  },
+  {
+    "id": "canon-indigo",
+    "title": "藍色の由来に関する解説",
+    "url": "https://global.canon/ja/technology/kids/color/c_06.html",
+    "checkedAt": "2026-11-23",
+    "appliesTo": "2026年11月23日確認の掲載記事。年版表記なし",
+    "location": "藍染と色名",
+    "role": "事実の根拠",
+    "notes": "色名の由来の一例だけを参照。画像や指定色の数値は取り込まない。"
+  },
+  {
+    "id": "practice-assumptions",
+    "title": "本教材の独自設例と画面配色",
+    "url": null,
+    "checkedAt": "2026-11-23",
+    "appliesTo": "教材2026.1",
+    "location": "各問題の条件、HSL値、面積率、架空の制作案件",
+    "role": "練習用の仮定",
+    "notes": "AIがこの制作で作成。公式問題・公式色票ではなく、値や課題の条件は独自の練習用設定。"
+  }
+]

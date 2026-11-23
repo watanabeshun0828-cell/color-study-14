@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day10",
+  "day": 10,
+  "title": "色相の関係を配色へ使う",
+  "category": "色彩調和",
+  "goals": [
+    "共通する色相と対照的な色相を区別する",
+    "HSLの角度による練習条件を理解する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "canon-image",
+    "practice-assumptions",
+    "css-color4"
+  ],
+  "sections": [
+    {
+      "id": "color26-day10-s1",
+      "title": "共通点と違いを選ぶ",
+      "paragraphs": [
+        "色相を近づけて共通性を作る配色と、離れた色相を使って違いを出す配色では、考える手掛かりが異なります。どちらが常に優れていると決めず、まとまりを求める部分と変化を付ける部分を整理します。",
+        "色相が共通でも明るさや鮮やかさ、面積を変えれば違いを付けられます。逆に、離れた色相でも調子や役割をそろえると、目的のある組合せとして説明しやすくなります。色相だけで完成とせず、他の条件も比べます。"
+      ],
+      "keyPoint": "共通性と変化を、色相以外の条件も含めて考えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-image",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day10-s2",
+      "title": "環の角度は操作用のルール",
+      "paragraphs": [
+        "アプリの操作では、HSLの色相を0度から一周する角度として使います。例えば360度を4等分すれば90度間隔です。この計算は独自の画面配色の練習条件で、PCCSの知覚的な色差や公式の配色法をそのまま測るものではありません。",
+        "HSLで反対側の位置を作るなら180度の差を使えます。ただし、その組をPCCSの心理補色の正確な再現と断定しません。体系の違いを明記し、見えや用途についての理由も記録します。"
+      ],
+      "keyPoint": "HSLの角度条件と、PCCSによる理論上の関係を区別します。",
+      "referenceIds": [
+        "css-color4",
+        "jcri-pccs",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day10-q01",
+      "sectionId": "color26-day10-s1",
+      "category": "色彩調和",
+      "prompt": "色相が近い色をまとめて使うとき、主にそろえているものは？",
+      "explanation": "近い色相を使う配色では、色みの共通性を手掛かりにします。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色みの共通性"
+        },
+        {
+          "id": "c2",
+          "text": "印刷の枚数"
+        },
+        {
+          "id": "c3",
+          "text": "文字の読み順"
+        },
+        {
+          "id": "c4",
+          "text": "光源の消費電力"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day10-q02",
+      "sectionId": "color26-day10-s1",
+      "category": "色彩調和",
+      "prompt": "同じ色相だけで配色に変化を付けたい。検討できるものは？",
+      "explanation": "色相以外にも、調子や面積、使う役割から変化を作れます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相が同じなら一切変化を付けられない"
+        },
+        {
+          "id": "c2",
+          "text": "明度・彩度・面積などを変える"
+        },
+        {
+          "id": "c3",
+          "text": "すべての色を同じ役割へ固定する"
+        },
+        {
+          "id": "c4",
+          "text": "用途を確認しない"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day10-q03",
+      "sectionId": "color26-day10-s1",
+      "category": "色彩調和",
+      "prompt": "離れた色相の2色を使う案を説明するには？",
+      "explanation": "対照性だけでなく、調子・面積・役割なども含めて意図を説明します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "離れた色相なら用途を問わず必ず調和すると書く"
+        },
+        {
+          "id": "c2",
+          "text": "印象は全員同じになると書く"
+        },
+        {
+          "id": "c3",
+          "text": "どこを対照的にし、何でまとまりを保つかを書く"
+        },
+        {
+          "id": "c4",
+          "text": "色相の番号だけを出力結果と同一視する"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day10-q04",
+      "sectionId": "color26-day10-s1",
+      "category": "色彩調和",
+      "prompt": "色相の共通性がある配色と、トーンの共通性がある配色の関係は？",
+      "explanation": "色みをそろえる場合と色の調子をそろえる場合は、注目している性質が異なります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "常に同じ色しか使えない"
+        },
+        {
+          "id": "c2",
+          "text": "どちらもRGBのR値だけで決まる"
+        },
+        {
+          "id": "c3",
+          "text": "両方とも照明の電力の分類である"
+        },
+        {
+          "id": "c4",
+          "text": "共通にする性質が異なるため、分けて説明できる"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day10-q05",
+      "sectionId": "color26-day10-s2",
+      "category": "色彩調和",
+      "prompt": "独自HSLワークで円を4等分する。角度の間隔は？",
+      "explanation": "一周360度÷4＝90度です。HSL操作の条件であり、PCCS色票の色差の測定ではありません。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [
+        {
+          "expression": "360÷4＝90",
+          "operator": "quotient",
+          "operands": [
+            360,
+            4
+          ],
+          "result": 90,
+          "unit": "度",
+          "rounding": "none"
+        }
+      ],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "90度"
+        },
+        {
+          "id": "c2",
+          "text": "24度"
+        },
+        {
+          "id": "c3",
+          "text": "45度"
+        },
+        {
+          "id": "c4",
+          "text": "180度"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day10-q06",
+      "sectionId": "color26-day10-s2",
+      "category": "色彩調和",
+      "prompt": "HSLでH=30度から反対側の位置を作る。もう一方のHは？",
+      "explanation": "30＋180＝210度です。操作用の角度関係として確認します。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [
+        {
+          "expression": "30＋180＝210",
+          "operator": "sum",
+          "operands": [
+            30,
+            180
+          ],
+          "result": 210,
+          "unit": "度",
+          "rounding": "none"
+        }
+      ],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "60度"
+        },
+        {
+          "id": "c2",
+          "text": "210度"
+        },
+        {
+          "id": "c3",
+          "text": "120度"
+        },
+        {
+          "id": "c4",
+          "text": "330度"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day10-q07",
+      "sectionId": "color26-day10-s2",
+      "category": "色彩調和",
+      "prompt": "HSLでH=350度とH=10度を比べる。環の短い側の差は？",
+      "explanation": "環は0度と360度でつながるため、350→360→10の短い側は20度です。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [
+        {
+          "expression": "360−350＝10",
+          "operator": "difference",
+          "operands": [
+            360,
+            350
+          ],
+          "result": 10,
+          "unit": "度",
+          "rounding": "none"
+        },
+        {
+          "expression": "10＋10＝20",
+          "operator": "sum",
+          "operands": [
+            10,
+            10
+          ],
+          "result": 20,
+          "unit": "度",
+          "rounding": "none"
+        }
+      ],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "340度"
+        },
+        {
+          "id": "c2",
+          "text": "360度"
+        },
+        {
+          "id": "c3",
+          "text": "20度"
+        },
+        {
+          "id": "c4",
+          "text": "180度"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day10-q08",
+      "sectionId": "color26-day10-s2",
+      "category": "色彩調和",
+      "prompt": "HSLで180度離した2色を示す際の適切な説明は？",
+      "explanation": "操作に使った体系と、その限界を明示します。",
+      "referenceIds": [
+        "css-color4",
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "PCCS公式の色票を必ず測定済みである"
+        },
+        {
+          "id": "c2",
+          "text": "どの印刷物でも同じ見えになる"
+        },
+        {
+          "id": "c3",
+          "text": "人が見る色の差が常に最大と保証する"
+        },
+        {
+          "id": "c4",
+          "text": "HSL上で反対位置の近似表示で、PCCS色票の正確な補色再現とは限らない"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day02",
+  "day": 2,
+  "title": "光と物体の関係をたどる",
+  "category": "光と色",
+  "goals": [
+    "光源・反射・透過を区別する",
+    "画面と印刷の違いを説明する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "canon-mixing",
+    "nei-eye",
+    "practice-assumptions",
+    "canon-rgb",
+    "css-color4",
+    "aft-products"
+  ],
+  "sections": [
+    {
+      "id": "color26-day02-s1",
+      "title": "光が眼へ届くまで",
+      "paragraphs": [
+        "自分で光を出す画面と、周囲の光を反射して見える紙では、眼へ届く光の作られ方が違います。物体の色を考えるときは、何に照らされ、その物体からどのような光が届くかを合わせて考えます。",
+        "反射は光が物体の側から戻ること、透過は物体を通り抜けることです。色の付いた透明な材料は、通る光の一部を吸収するため、通り抜けた光の組み合わせが変わります。物体の名前だけで見える色を決めつけません。"
+      ],
+      "keyPoint": "光源→物体との関わり→眼に届く光、という順に考えます。",
+      "referenceIds": [
+        "canon-mixing",
+        "nei-eye",
+        "practice-assumptions"
+      ],
+      "diagram": {
+        "title": "眼へ届く光の経路",
+        "description": "物体の見えは、照明や物体と光との関係にもよります。",
+        "items": [
+          {
+            "label": "光源",
+            "detail": "太陽や照明が光を出す"
+          },
+          {
+            "label": "物体",
+            "detail": "光を反射・透過・吸収する"
+          },
+          {
+            "label": "眼",
+            "detail": "届いた光を受け取る"
+          }
+        ]
+      }
+    },
+    {
+      "id": "color26-day02-s2",
+      "title": "表示と出力を同じだと思わない",
+      "paragraphs": [
+        "デジタルのRGBは赤・緑・青の成分で表示色を指定する方法です。印刷ではインクと紙を使い、画面とは違う方法で色を表します。RGBの指定値を知っていても、そのまま同じ見えの印刷物ができるわけではありません。",
+        "表示できる色の範囲や、画面の設定は端末によって異なります。配布先が印刷物なら、画面での確認に加えて実際の出力条件でも確認します。このアプリは、プリンターや照明の測定結果を自動で取得するものではありません。"
+      ],
+      "keyPoint": "画面の数値と実物の見えは、異なる条件で確認します。",
+      "referenceIds": [
+        "canon-rgb",
+        "canon-mixing",
+        "css-color4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day02-q01",
+      "sectionId": "color26-day02-s1",
+      "category": "光と色",
+      "prompt": "照明を反射して見えるポスターの色を考えるとき、必要な視点は？",
+      "explanation": "物体色は、光源と物体から眼へ届く光に関係します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "照明と紙・インクの条件を合わせて考える"
+        },
+        {
+          "id": "c2",
+          "text": "画面のRGB値だけを最終的な正解とする"
+        },
+        {
+          "id": "c3",
+          "text": "照明を無視して色名だけで比較する"
+        },
+        {
+          "id": "c4",
+          "text": "紙の反射を画面の発光と同じ条件として扱う"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day02-q02",
+      "sectionId": "color26-day02-s1",
+      "category": "光と色",
+      "prompt": "光が材料を通り抜ける現象を表す言葉は？",
+      "explanation": "透明な材料を通り抜けることを透過と呼びます。材料がどの光を通すかも見えに関係します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "反射"
+        },
+        {
+          "id": "c2",
+          "text": "透過"
+        },
+        {
+          "id": "c3",
+          "text": "吸収"
+        },
+        {
+          "id": "c4",
+          "text": "屈折"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day02-q03",
+      "sectionId": "color26-day02-s1",
+      "category": "光と色",
+      "prompt": "紙が自ら発光する画面と同じ方法で色を見せている、という説明は？",
+      "explanation": "画面の表示と紙の反射を区別すると、照明や出力による差を説明しやすくなります。",
+      "referenceIds": [
+        "canon-rgb",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どちらもインクの発光なので正しい"
+        },
+        {
+          "id": "c2",
+          "text": "紙には照明が一切関係しないので正しい"
+        },
+        {
+          "id": "c3",
+          "text": "紙は通常、周囲の光を反射するので区別が必要"
+        },
+        {
+          "id": "c4",
+          "text": "RGBという文字があれば必ず正しい"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day02-q04",
+      "sectionId": "color26-day02-s2",
+      "category": "光と色",
+      "prompt": "画面で選んだ鮮やかな色を印刷したら違って見えた。適切な対応は？",
+      "explanation": "表示と印刷では再現の方法や条件が違います。原因を確認して目的の出力へ調整します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず見る人が間違っているとする"
+        },
+        {
+          "id": "c2",
+          "text": "同じ数値なので確認を終える"
+        },
+        {
+          "id": "c3",
+          "text": "色名を英語にすれば同じになると考える"
+        },
+        {
+          "id": "c4",
+          "text": "用紙・インク・出力設定などの違いを確認する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day02-q05",
+      "sectionId": "color26-day02-s2",
+      "category": "光と色",
+      "prompt": "RGBのR・G・Bが指す成分は？",
+      "explanation": "RGBはディスプレイ等の表示で使われる赤・緑・青の成分です。",
+      "referenceIds": [
+        "canon-rgb",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤・緑・青"
+        },
+        {
+          "id": "c2",
+          "text": "赤・黄・青"
+        },
+        {
+          "id": "c3",
+          "text": "シアン・黒・白"
+        },
+        {
+          "id": "c4",
+          "text": "明度・面積・形"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day02-q06",
+      "sectionId": "color26-day02-s2",
+      "category": "光と色",
+      "prompt": "一般的なカラー印刷のCMYKのKは、この分類では何を表す？",
+      "explanation": "CMYの色材に黒の成分を加えて扱います。RGBのBと混同しないようにします。",
+      "referenceIds": [
+        "canon-rgb",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "青の成分"
+        },
+        {
+          "id": "c2",
+          "text": "黒の成分"
+        },
+        {
+          "id": "c3",
+          "text": "明度の単位"
+        },
+        {
+          "id": "c4",
+          "text": "照明の明るさ"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day02-q07",
+      "sectionId": "color26-day02-s2",
+      "category": "光と色",
+      "prompt": "同じ配色データを二つのスマホで比べる際の考え方は？",
+      "explanation": "数値が同じでも、端末の再現や周囲の環境まで同一とは限りません。",
+      "referenceIds": [
+        "css-color4",
+        "aft-products",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どの端末でも完全一致が保証される"
+        },
+        {
+          "id": "c2",
+          "text": "ファイルが同じなら光源は無関係"
+        },
+        {
+          "id": "c3",
+          "text": "表示設定や端末による差も考慮する"
+        },
+        {
+          "id": "c4",
+          "text": "一方を見ずに同じと結論する"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day02-q08",
+      "sectionId": "color26-day02-s1",
+      "category": "光と色",
+      "prompt": "色の学習で画面から読み取れないものはどれ？",
+      "explanation": "画面は実物の素材や照明条件そのものを測定するものではありません。",
+      "referenceIds": [
+        "canon-mixing",
+        "aft-products",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "アプリに設定したHSL値"
+        },
+        {
+          "id": "c2",
+          "text": "記録した配色の割合"
+        },
+        {
+          "id": "c3",
+          "text": "表示された説明文"
+        },
+        {
+          "id": "c4",
+          "text": "実物の布が実際の照明下でどう見えるかの最終結果"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

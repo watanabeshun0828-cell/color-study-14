@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day11",
+  "day": 11,
+  "title": "トーンと面積で配色を整える",
+  "category": "色彩調和",
+  "goals": [
+    "トーン・アクセント・セパレーションを区別する",
+    "面積の指定を計算し配色意図を説明する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "css-color4",
+    "practice-assumptions",
+    "wcag-contrast"
+  ],
+  "sections": [
+    {
+      "id": "color26-day11-s1",
+      "title": "調子をそろえる、調子を変える",
+      "paragraphs": [
+        "色相が違っていても、トーンに共通性を持たせる考え方があります。一方、調子を変えて差を作る考え方もあります。見本を見比べるときは、色みだけを変えたのか、明るさや鮮やかさも変えたのかを記録します。",
+        "グラデーションは、色を段階的に変える配色の考え方です。何を連続的に変えるかを決めると、説明しやすくなります。アプリで作る値の列は独自の画面試作で、公式のトーン色票を並べたものではありません。"
+      ],
+      "keyPoint": "どの特徴をそろえ、どの特徴を変えたかを説明します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "aft-toc",
+        "css-color4",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day11-s2",
+      "title": "小さな色と間に置く色",
+      "paragraphs": [
+        "アクセントカラーは、配色の中へ変化や強調を付ける色として考えます。鮮やかな色を広い面積へ使う場合と、小さい部分へ使う場合で、全体の印象は変わります。面積比は用途に応じた練習条件で、一つの比率だけを普遍的な正解にしません。",
+        "セパレーションは、色同士の間に別の色を挟んで、境界や関係を整理する配色技法です。間に置けばどんな文字でも読めると決めず、実際の組合せを確かめます。技法の名称と、目的に合ったかの確認を分けます。"
+      ],
+      "keyPoint": "アクセントの役割と面積、セパレーションの働きを分けます。",
+      "referenceIds": [
+        "aft-toc",
+        "jcri-pccs",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day11-q01",
+      "sectionId": "color26-day11-s1",
+      "category": "色彩調和",
+      "prompt": "色相が異なる2色を同じような淡い調子でまとめるときの手掛かりは？",
+      "explanation": "色相とは別に、明度と彩度を複合した調子へ注目します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "トーンの共通性"
+        },
+        {
+          "id": "c2",
+          "text": "必ず同じHの値であること"
+        },
+        {
+          "id": "c3",
+          "text": "すべての面積が0であること"
+        },
+        {
+          "id": "c4",
+          "text": "色を混ぜて一色へ消すこと"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day11-q02",
+      "sectionId": "color26-day11-s1",
+      "category": "色彩調和",
+      "prompt": "色を段階的に変えて並べる技法は？",
+      "explanation": "何の属性を段階的に変えるかを決めて観察します。",
+      "referenceIds": [
+        "aft-toc",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "同じ値の完全な繰り返しだけ"
+        },
+        {
+          "id": "c2",
+          "text": "グラデーション"
+        },
+        {
+          "id": "c3",
+          "text": "物体の温度計測"
+        },
+        {
+          "id": "c4",
+          "text": "文字の翻訳"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day11-q03",
+      "sectionId": "color26-day11-s1",
+      "category": "色彩調和",
+      "prompt": "独自ワークでHとSを固定し、Lを20・40・60と変えた。段階的に変えたのは？",
+      "explanation": "Lの段階を作る操作です。CSS値をPCCSの尺度と同じだとは扱いません。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "PCCSの公式明度を測定した値"
+        },
+        {
+          "id": "c2",
+          "text": "色相だけ"
+        },
+        {
+          "id": "c3",
+          "text": "CSS HSLのL成分"
+        },
+        {
+          "id": "c4",
+          "text": "紙の面積だけ"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day11-q04",
+      "sectionId": "color26-day11-s2",
+      "category": "色彩調和",
+      "prompt": "アクセントカラーを使う目的として適切なのは？",
+      "explanation": "全体の中で何を強調したいかと、使う面積を合わせて考えます。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "全要素を常に同じ役割にする"
+        },
+        {
+          "id": "c2",
+          "text": "必ず一色で健康を改善する"
+        },
+        {
+          "id": "c3",
+          "text": "すべての背景を同じRGBへ固定する"
+        },
+        {
+          "id": "c4",
+          "text": "一部へ変化や強調を付ける"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day11-q05",
+      "sectionId": "color26-day11-s2",
+      "category": "色彩調和",
+      "prompt": "色同士の間へ別の色を挟んで関係を整理する技法は？",
+      "explanation": "技法の目的と、実際の組合せの見えを合わせて確かめます。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "セパレーション"
+        },
+        {
+          "id": "c2",
+          "text": "加法混色"
+        },
+        {
+          "id": "c3",
+          "text": "網膜での光の受容"
+        },
+        {
+          "id": "c4",
+          "text": "色順応"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day11-q06",
+      "sectionId": "color26-day11-s2",
+      "category": "色彩調和",
+      "prompt": "架空の3色配色で背景65%、補助20%と決めた。残りのアクセントは？",
+      "explanation": "合計100%の条件なので、100−65−20＝15%です。この割合は独自設例の指定です。",
+      "referenceIds": [
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [
+        {
+          "expression": "100−65−20＝15",
+          "operator": "difference",
+          "operands": [
+            100,
+            65,
+            20
+          ],
+          "result": 15,
+          "unit": "%",
+          "rounding": "none"
+        }
+      ],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "5%"
+        },
+        {
+          "id": "c2",
+          "text": "15%"
+        },
+        {
+          "id": "c3",
+          "text": "20%"
+        },
+        {
+          "id": "c4",
+          "text": "35%"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day11-q07",
+      "sectionId": "color26-day11-s2",
+      "category": "色彩調和",
+      "prompt": "「アクセントはどんな用途でも必ず10%が正解」という説明は？",
+      "explanation": "練習の指定割合と、すべての配色に適用する決まりを区別します。",
+      "referenceIds": [
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "実測なしで普遍的に保証できる"
+        },
+        {
+          "id": "c2",
+          "text": "PCCSの色相番号そのものである"
+        },
+        {
+          "id": "c3",
+          "text": "用途による設計を一つの比率へ固定しすぎている"
+        },
+        {
+          "id": "c4",
+          "text": "RGB値が同じなら常に成立する"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day11-q08",
+      "sectionId": "color26-day11-s2",
+      "category": "色彩調和",
+      "prompt": "細い白い境界を挟んだので文字の確認は不要、という考え方は？",
+      "explanation": "技法の適用と、目的の情報を受け取れるかの確認は別です。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "境界があればすべての文字が必ず読める"
+        },
+        {
+          "id": "c2",
+          "text": "色名を付ければどんな境界でもよい"
+        },
+        {
+          "id": "c3",
+          "text": "文字の大きさや表示条件は無関係"
+        },
+        {
+          "id": "c4",
+          "text": "技法を使っただけでは読める保証にならず、組合せを確認する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

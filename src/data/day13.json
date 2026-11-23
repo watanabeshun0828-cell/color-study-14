@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day13",
+  "day": 13,
+  "title": "色名と画面の読みやすさを確かめる",
+  "category": "配色の応用",
+  "goals": [
+    "慣用色名と系統色名を区別する",
+    "Web実務のコントラスト補足を使い分ける"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "canon-indigo",
+    "wcag-contrast",
+    "css-color4",
+    "practice-assumptions",
+    "canon-mixing"
+  ],
+  "sections": [
+    {
+      "id": "color26-day13-s1",
+      "title": "色名を手掛かりにし、指定も確かめる",
+      "paragraphs": [
+        "慣用色名は、ものや文化などに由来する名前で色を伝える方法です。例えば藍色は、藍染の文化と結び付いた色名です。名前から共通のイメージが浮かんでも、現物の色や指定条件まで一つに確定するとは限りません。",
+        "系統色名は、色みと調子などを一定の方法で組み合わせて色を整理する考え方です。「淡い」「暗い」などを加えて色の特徴を説明します。本教材は慣用色名の全一覧や公式の指定色票を再現していません。実物での色名と色の対応は別途練習します。"
+      ],
+      "keyPoint": "名前の由来と、体系に基づく特徴の説明を区別します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-indigo",
+        "aft-toc"
+      ]
+    },
+    {
+      "id": "color26-day13-s2",
+      "title": "読みやすさの数値は実務補足",
+      "paragraphs": [
+        "Webで文字と背景を組み合わせるときには、WCAGのコントラスト比を参考にできます。これは相対輝度の差から計算する比で、PCCSの色差や色彩検定の合否判定ではありません。本教材ではWeb実務の補足として分けて扱います。",
+        "通常の文字では4.5対1以上というWCAGの目安があり、大きな文字などには別の条件があります。数値は丸める前に条件判定し、文字サイズ、線の太さ、実際の表示、色以外の情報も確認します。一つの比だけで全アクセシビリティを保証するものではありません。"
+      ],
+      "keyPoint": "コントラスト比はWeb実務の補足で、試験得点の換算ではありません。",
+      "referenceIds": [
+        "wcag-contrast",
+        "css-color4",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day13-q01",
+      "sectionId": "color26-day13-s1",
+      "category": "配色の応用",
+      "prompt": "ものや文化などに由来する色の名前を整理する言葉は？",
+      "explanation": "由来を持つ名前で色を伝える考え方と、数値や体系による指定を区別します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "慣用色名"
+        },
+        {
+          "id": "c2",
+          "text": "相対輝度"
+        },
+        {
+          "id": "c3",
+          "text": "網膜"
+        },
+        {
+          "id": "c4",
+          "text": "加法混色"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day13-q02",
+      "sectionId": "color26-day13-s1",
+      "category": "配色の応用",
+      "prompt": "「暗い青」のように、色みと調子を組み合わせて伝える考え方は？",
+      "explanation": "色の特徴を一定の方法で言葉へまとめる考え方です。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "RGBの値を一切使わない命令"
+        },
+        {
+          "id": "c2",
+          "text": "系統的な色名による特徴の整理"
+        },
+        {
+          "id": "c3",
+          "text": "印刷用紙の寸法"
+        },
+        {
+          "id": "c4",
+          "text": "全員の好みの統一"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day13-q03",
+      "sectionId": "color26-day13-s1",
+      "category": "配色の応用",
+      "prompt": "藍色という名前を学ぶ際、この教材で確認した由来の一例は？",
+      "explanation": "藍色の由来を学びますが、名前から任意のRGB値を唯一の公式値と決めつけません。",
+      "referenceIds": [
+        "canon-indigo",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "RGBのB値が常に128である規則"
+        },
+        {
+          "id": "c2",
+          "text": "どの素材でも完全に同じ指定色という規則"
+        },
+        {
+          "id": "c3",
+          "text": "藍染で使われる色と文化"
+        },
+        {
+          "id": "c4",
+          "text": "画面が自動で公式カードになる機能"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day13-q04",
+      "sectionId": "color26-day13-s1",
+      "category": "配色の応用",
+      "prompt": "依頼書に「藍色で」とだけある。実物を作る前に補うとよいことは？",
+      "explanation": "名前のイメージと、実際の制作で確認する見本や条件を分けます。",
+      "referenceIds": [
+        "canon-indigo",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "好きなRGBを公式値と決めて伝える"
+        },
+        {
+          "id": "c2",
+          "text": "色名が同じなら素材確認を省く"
+        },
+        {
+          "id": "c3",
+          "text": "画面の明るさを最大にして確定する"
+        },
+        {
+          "id": "c4",
+          "text": "どの見本や出力条件を使うか確認する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day13-q05",
+      "sectionId": "color26-day13-s2",
+      "category": "配色の応用",
+      "prompt": "Web実務のコントラスト比が主に比べるものは？",
+      "explanation": "WCAGの比率の考え方です。色彩検定3級の採点基準ではありません。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "文字と背景などの相対輝度の関係"
+        },
+        {
+          "id": "c2",
+          "text": "PCCS色相番号の大小だけ"
+        },
+        {
+          "id": "c3",
+          "text": "見る人の好みの順位"
+        },
+        {
+          "id": "c4",
+          "text": "公式試験の評価点"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day13-q06",
+      "sectionId": "color26-day13-s2",
+      "category": "配色の応用",
+      "prompt": "WCAGの通常の文字で示される最低コントラスト比の目安は？",
+      "explanation": "通常文字と大きな文字などの条件を区別します。ここではWeb実務の補足として扱います。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1対1なら常に十分"
+        },
+        {
+          "id": "c2",
+          "text": "4.5対1"
+        },
+        {
+          "id": "c3",
+          "text": "24対1が必須"
+        },
+        {
+          "id": "c4",
+          "text": "色相番号の差が4.5"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day13-q07",
+      "sectionId": "color26-day13-s2",
+      "category": "配色の応用",
+      "prompt": "同じ色同士のコントラスト比は？",
+      "explanation": "明るい側と暗い側が同じ相対輝度なので、同じ量を割った比は1になります。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "0対1"
+        },
+        {
+          "id": "c2",
+          "text": "21対1"
+        },
+        {
+          "id": "c3",
+          "text": "1対1"
+        },
+        {
+          "id": "c4",
+          "text": "無限大"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day13-q08",
+      "sectionId": "color26-day13-s2",
+      "category": "配色の応用",
+      "prompt": "算出した比は4.499だが小数2桁表示は4.50になった。4.5以上の条件判定は？",
+      "explanation": "表示の丸めと基準の判定を分けます。見かけの丸めで閾値を通過した扱いにしません。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "表示が4.50なので必ず条件達成"
+        },
+        {
+          "id": "c2",
+          "text": "色名が青なら達成へ変更する"
+        },
+        {
+          "id": "c3",
+          "text": "比率は数値なので端数を考えない"
+        },
+        {
+          "id": "c4",
+          "text": "丸める前の値で比較し、条件を満たしたとはしない"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+[
+  {
+    "id": "color-work01",
+    "day": 1,
+    "title": "案内の文字と強調の役割",
+    "intro": "架空の講座案内を想定します。文字と背景の計算条件、強調する面積を分けて考えます。コントラスト比は試験範囲外のWeb実務補足です。",
+    "instructions": [
+      "背景と主色を変え、主色と背景の比を4.5以上にします。",
+      "アクセント面積を15%以下にして、どの情報を強調するか考えます。",
+      "数値条件と、案内として伝わるかの自己確認を別々に記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work01-check1",
+        "label": "文字に使う色と背景の役割を説明した"
+      },
+      {
+        "id": "color-work01-check2",
+        "label": "アクセントを小さくした意図を記録した"
+      }
+    ],
+    "referenceIds": [
+      "aft-level",
+      "wcag-contrast",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 210,
+      "s": 50,
+      "l": 75,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 95,
+      "accentH": 180,
+      "area": 25
+    },
+    "rules": [
+      {
+        "key": "contrast",
+        "op": "gte",
+        "value": 4.5,
+        "label": "主色と背景の比4.5以上：Web実務補足"
+      },
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 15,
+        "label": "この設例の強調面積は15%以下"
+      }
+    ],
+    "prompt": "どの情報を優先し、どの色へその役割を持たせましたか？"
+  },
+  {
+    "id": "color-work02",
+    "day": 2,
+    "title": "表示用の青系指定を記録",
+    "intro": "出力へ渡す前の画面試作です。数値指定を再現できることと、紙で同じに見えることを分けます。指定値は独自の練習条件です。",
+    "instructions": [
+      "Hを220度、Sを50%以上、Lを30〜60%へ合わせます。",
+      "一度離れて同じ値へ戻し、数値指定の再現を試します。",
+      "紙の見本を作る場合に追加する確認を書きます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work02-check1",
+        "label": "指定した体系をCSS HSLと記した"
+      },
+      {
+        "id": "color-work02-check2",
+        "label": "紙や布の実物確認が別に必要だと説明した"
+      }
+    ],
+    "referenceIds": [
+      "canon-rgb",
+      "canon-mixing",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 50,
+      "s": 30,
+      "l": 75,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "h",
+        "op": "eq",
+        "value": 220,
+        "label": "H=220度"
+      },
+      {
+        "key": "s",
+        "op": "gte",
+        "value": 50,
+        "label": "Sは50%以上"
+      },
+      {
+        "key": "l",
+        "op": "gte",
+        "value": 30,
+        "label": "Lは30%以上"
+      },
+      {
+        "key": "l",
+        "op": "lte",
+        "value": 60,
+        "label": "Lは60%以下"
+      }
+    ],
+    "prompt": "同じ数値を別の端末や紙へ渡すとき、何を確認しますか？"
+  },
+  {
+    "id": "color-work03",
+    "day": 3,
+    "title": "中心を固定して周囲だけ変える",
+    "intro": "中心の指定を保存し、背景だけを変えます。見えの差を感じたかどうかは自己観察であり、視覚能力を採点しません。",
+    "instructions": [
+      "主色をH=180、S=50、L=45にそろえます。",
+      "背景Lを初期の90から20以下へ変え、前後を比較します。",
+      "明るさの環境への順応と、周囲の色の影響を区別して記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work03-check1",
+        "label": "主色の値を変えずに比較した"
+      },
+      {
+        "id": "color-work03-check2",
+        "label": "差を感じた・感じなかったの両方を観察結果として扱った"
+      }
+    ],
+    "referenceIds": [
+      "cie-adaptation",
+      "cie-induction",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 180,
+      "s": 50,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 90,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "h",
+        "op": "eq",
+        "value": 180,
+        "label": "中心H=180度を固定"
+      },
+      {
+        "key": "s",
+        "op": "eq",
+        "value": 50,
+        "label": "中心S=50%を固定"
+      },
+      {
+        "key": "l",
+        "op": "eq",
+        "value": 45,
+        "label": "中心L=45%を固定"
+      },
+      {
+        "key": "bgL",
+        "op": "lte",
+        "value": 20,
+        "label": "背景Lを20%以下へ変更"
+      }
+    ],
+    "prompt": "中心の数値と背景の変更を分けると、どんな比較ができますか？"
+  },
+  {
+    "id": "color-work04",
+    "day": 4,
+    "title": "画面の黄色を作って混色と区別",
+    "intro": "この作業では黄色系のHSL指定を作ります。絵の具やインクの混色実験ではありません。赤と緑の光で黄色系を表す考え方とつなげます。",
+    "instructions": [
+      "H=60、S=100、L=50へ合わせます。",
+      "光を組み合わせる考え方と、色材が光を吸収する考え方を言い分けます。",
+      "この画面だけから、現実の絵の具の混合比を求めない理由を書きます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work04-check1",
+        "label": "加法と減法の対象の違いを説明した"
+      },
+      {
+        "id": "color-work04-check2",
+        "label": "表示色の試作と物理的な材料実験を区別した"
+      }
+    ],
+    "referenceIds": [
+      "canon-mixing",
+      "cie-additive",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 0,
+      "s": 70,
+      "l": 40,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "h",
+        "op": "eq",
+        "value": 60,
+        "label": "H=60度"
+      },
+      {
+        "key": "s",
+        "op": "eq",
+        "value": 100,
+        "label": "S=100%"
+      },
+      {
+        "key": "l",
+        "op": "eq",
+        "value": 50,
+        "label": "L=50%"
+      }
+    ],
+    "prompt": "同じ「黄色を作る」でも、画面と色材で何が違いますか？"
+  },
+  {
+    "id": "color-work05",
+    "day": 5,
+    "title": "無彩色と成分の役割",
+    "intro": "Sを0にした表示を比べます。HSLのLを変える操作と、色みを変える操作を区別する練習です。",
+    "instructions": [
+      "Sを0、Lを50へ合わせます。",
+      "S=0のままHを変え、指定値と表示の関係を観察します。",
+      "最後にLを変えて試し、条件確認の際はL=50へ戻します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work05-check1",
+        "label": "S=0ではHが表示へ影響しないことを説明した"
+      },
+      {
+        "id": "color-work05-check2",
+        "label": "白・灰・黒に明るさの違いがあると説明した"
+      }
+    ],
+    "referenceIds": [
+      "jcri-pccs",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 30,
+      "s": 65,
+      "l": 70,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "s",
+        "op": "eq",
+        "value": 0,
+        "label": "S=0%"
+      },
+      {
+        "key": "l",
+        "op": "eq",
+        "value": 50,
+        "label": "比較の基準L=50%"
+      }
+    ],
+    "prompt": "無彩色でも比較できる属性は何ですか？"
+  },
+  {
+    "id": "color-work06",
+    "day": 6,
+    "title": "体系を明記した色相の間隔",
+    "intro": "二つの色のHSL色相角の短い側の差を120度にします。120という値は操作用の条件であり、PCCSの番号や色差ではありません。",
+    "instructions": [
+      "主色とアクセントのHを調整し、短い側の角度差を120度にします。",
+      "面積を20%に設定して、値の記録へ体系名を添えます。",
+      "HSLの角度をPCCS番号へそのまま置き換えない理由を書きます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work06-check1",
+        "label": "「CSS HSLの角度差」と記録した"
+      },
+      {
+        "id": "color-work06-check2",
+        "label": "実物カードの測定値とは扱わなかった"
+      }
+    ],
+    "referenceIds": [
+      "jcri-pccs",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 30,
+      "s": 60,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 60,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "angle",
+        "op": "eq",
+        "value": 120,
+        "label": "HSL色相角の短い側の差120度"
+      },
+      {
+        "key": "area",
+        "op": "eq",
+        "value": 20,
+        "label": "設例の面積20%"
+      }
+    ],
+    "prompt": "体系名のない「120」という指定には、どんな不足がありますか？"
+  },
+  {
+    "id": "color-work07",
+    "day": 7,
+    "title": "淡い方向の画面試作",
+    "intro": "Lを高め、Sを控えた画面案を作ります。これは淡い方向を試す独自操作条件で、PCCSの特定トーンに一致したかは判定しません。",
+    "instructions": [
+      "Lを80%以上、Sを35%以下へ合わせます。",
+      "条件を保ってHを変え、数値が同じでも見えの明るさがそろうとは限らない点を考えます。",
+      "トーンを考える際に、明度と彩度の両方を見る理由を書きます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work07-check1",
+        "label": "トーンをL一つで定義しなかった"
+      },
+      {
+        "id": "color-work07-check2",
+        "label": "PCCSのトーン判定済みとは記録しなかった"
+      }
+    ],
+    "referenceIds": [
+      "jcri-pccs",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 200,
+      "s": 80,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "l",
+        "op": "gte",
+        "value": 80,
+        "label": "画面試作のLは80%以上"
+      },
+      {
+        "key": "s",
+        "op": "lte",
+        "value": 35,
+        "label": "画面試作のSは35%以下"
+      }
+    ],
+    "prompt": "色相とトーンのどちらを共通にしたい案ですか？"
+  },
+  {
+    "id": "color-work08",
+    "day": 8,
+    "title": "印象の意図を小さな面積で試す",
+    "intro": "架空の休憩室の案内を試作します。落ち着くと感じるかは、数値の正誤と分けて自分の言葉で記録します。",
+    "instructions": [
+      "Sを35%以下、アクセント面積を10%以下へ調整します。",
+      "Hを二通り試し、どんな意図で選んだか比べます。",
+      "印象の数値認定ではなく、用途や見る人で変わる可能性を記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work08-check1",
+        "label": "配色の意図を、全員に同じ印象という保証と分けた"
+      },
+      {
+        "id": "color-work08-check2",
+        "label": "同じ面積条件の二案を比較した"
+      }
+    ],
+    "referenceIds": [
+      "canon-image",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 15,
+      "s": 90,
+      "l": 55,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 35
+    },
+    "rules": [
+      {
+        "key": "s",
+        "op": "lte",
+        "value": 35,
+        "label": "この設例ではSを35%以下"
+      },
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 10,
+        "label": "この設例ではアクセント10%以下"
+      }
+    ],
+    "prompt": "あなたが伝えたい印象と、他の人に確かめたいことは何ですか？"
+  },
+  {
+    "id": "color-work09",
+    "day": 9,
+    "title": "同じ指定を面積だけで比較",
+    "intro": "色の指定を保ったまま、アクセントを10%から40%へ変えます。面積と印象の関係を観察し、好き嫌いを採点しません。",
+    "instructions": [
+      "主色のH=210、S=55、L=45を維持します。",
+      "アクセント面積を初期10%と40%で比較し、最後は40%にします。",
+      "面積が変わったことと、指定色が変わったことを混同せず記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work09-check1",
+        "label": "変えたのは面積であると記録した"
+      },
+      {
+        "id": "color-work09-check2",
+        "label": "印象の変化がなくても観察結果として残した"
+      }
+    ],
+    "referenceIds": [
+      "aft-toc",
+      "cie-induction",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 210,
+      "s": 55,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "h",
+        "op": "eq",
+        "value": 210,
+        "label": "主色H=210度を固定"
+      },
+      {
+        "key": "s",
+        "op": "eq",
+        "value": 55,
+        "label": "主色S=55%を固定"
+      },
+      {
+        "key": "l",
+        "op": "eq",
+        "value": 45,
+        "label": "主色L=45%を固定"
+      },
+      {
+        "key": "area",
+        "op": "eq",
+        "value": 40,
+        "label": "比較後のアクセント面積40%"
+      }
+    ],
+    "prompt": "同じ指定値でも、大きい面と小さい面を比べる必要があるのはなぜですか？"
+  },
+  {
+    "id": "color-work10",
+    "day": 10,
+    "title": "HSL環の反対位置を作る",
+    "intro": "二つのHSL色相角を180度離し、小さいアクセントで試します。HSL上の反対位置と、PCCS公式色票の補色再現は同じだと扱いません。",
+    "instructions": [
+      "主色とアクセントの短い側の角度差を180度にします。",
+      "アクセントの面積を12%以下へ調整します。",
+      "色相の対照をどの部分へ使ったか記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work10-check1",
+        "label": "角度をHSLの値として説明した"
+      },
+      {
+        "id": "color-work10-check2",
+        "label": "色相の差だけで読みやすさを保証しなかった"
+      }
+    ],
+    "referenceIds": [
+      "jcri-pccs",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 30,
+      "s": 60,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 60,
+      "area": 30
+    },
+    "rules": [
+      {
+        "key": "angle",
+        "op": "eq",
+        "value": 180,
+        "label": "HSL色相角の差180度"
+      },
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 12,
+        "label": "設例のアクセント面積12%以下"
+      }
+    ],
+    "prompt": "反対位置の色を使うとき、面積や文字の確認をどう組み合わせますか？"
+  },
+  {
+    "id": "color-work11",
+    "day": 11,
+    "title": "小さなアクセントと文字の確認",
+    "intro": "一部分だけを強調する条件を設けます。面積8%は設例の条件であり、配色全般の正解比率ではありません。",
+    "instructions": [
+      "アクセント面積を8%以下にします。",
+      "主色と背景のコントラスト比を4.5以上へ調整します。これはWeb実務補足です。",
+      "境界へ色を挟む案も考え、技法を使うだけで読める保証にはならない点を記録します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work11-check1",
+        "label": "アクセントの役割と面積の理由を書いた"
+      },
+      {
+        "id": "color-work11-check2",
+        "label": "コントラスト条件を印象の評価と区別した"
+      }
+    ],
+    "referenceIds": [
+      "aft-toc",
+      "wcag-contrast",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 215,
+      "s": 55,
+      "l": 25,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 96,
+      "accentH": 180,
+      "area": 30
+    },
+    "rules": [
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 8,
+        "label": "この設例のアクセント8%以下"
+      },
+      {
+        "key": "contrast",
+        "op": "gte",
+        "value": 4.5,
+        "label": "主色と背景の比4.5以上：Web実務補足"
+      }
+    ],
+    "prompt": "強調を増やしすぎないために、どの箇所を選びましたか？"
+  },
+  {
+    "id": "color-work12",
+    "day": 12,
+    "title": "大きい壁と小物の案を分ける",
+    "intro": "架空の室内で、壁面の主色を明るく控えた画面案にし、小物の面積を限定します。画面で実際の壁材や照明を測定したことにはなりません。",
+    "instructions": [
+      "主色のLを75%以上、Sを30%以下へします。",
+      "アクセントの面積を15%以下へします。",
+      "同じ色を服や小物へ使う場合と、壁へ使う場合で補う確認を比べます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work12-check1",
+        "label": "素材と照明の実物確認が必要だと記録した"
+      },
+      {
+        "id": "color-work12-check2",
+        "label": "大きい面積と小さい面積の役割を分けた"
+      }
+    ],
+    "referenceIds": [
+      "aft-toc",
+      "cie-rendering",
+      "canon-mixing",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 80,
+      "s": 70,
+      "l": 45,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 40
+    },
+    "rules": [
+      {
+        "key": "l",
+        "op": "gte",
+        "value": 75,
+        "label": "壁の画面試作Lは75%以上"
+      },
+      {
+        "key": "s",
+        "op": "lte",
+        "value": 30,
+        "label": "壁の画面試作Sは30%以下"
+      },
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 15,
+        "label": "小物に見立てた面積15%以下"
+      }
+    ],
+    "prompt": "実際の室内で、この画面に加えてどんな見本を確認しますか？"
+  },
+  {
+    "id": "color-work13",
+    "day": 13,
+    "title": "Web補足の文字コントラスト",
+    "intro": "色彩検定3級の範囲とは別に、通常の文字と背景の比4.5以上を確認します。丸め前の計算値で条件を判定します。",
+    "instructions": [
+      "背景または主色を変えて、コントラスト比4.5以上へ調整します。",
+      "HSLのLの差だけで比を計算できない点を説明します。",
+      "色名で依頼された場合にも、必要な指定値と出力条件を確認する理由を書きます。"
+    ],
+    "checks": [
+      {
+        "id": "color-work13-check1",
+        "label": "この基準を試験の合格基準と混同しなかった"
+      },
+      {
+        "id": "color-work13-check2",
+        "label": "小数表示の丸めと閾値の判定を分けた"
+      }
+    ],
+    "referenceIds": [
+      "wcag-contrast",
+      "canon-indigo",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 0,
+      "s": 0,
+      "l": 65,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 100,
+      "accentH": 180,
+      "area": 10
+    },
+    "rules": [
+      {
+        "key": "contrast",
+        "op": "gte",
+        "value": 4.5,
+        "label": "通常の文字の練習条件4.5以上：Web実務補足"
+      }
+    ],
+    "prompt": "数値条件を満たしたうえで、実際の文字でも何を確認しますか？"
+  },
+  {
+    "id": "color-work14",
+    "day": 14,
+    "title": "条件と意図を合わせた総合案",
+    "intro": "架空のイベント案内の配色をまとめます。三つの数値条件に加え、伝えたい内容と、画面外で必要な確認を書き残します。",
+    "instructions": [
+      "主色と背景のコントラスト比を4.5以上にします。これはWeb実務補足です。",
+      "主色とアクセントのHSL色相角の短い側の差を90度以上、アクセント面積を15%以下にします。",
+      "HSLの試作、表現の意図、実物での確認事項を分けて説明します。"
+    ],
+    "checks": [
+      {
+        "id": "color-work14-check1",
+        "label": "条件を満たした値と、選んだ理由の両方を書いた"
+      },
+      {
+        "id": "color-work14-check2",
+        "label": "未確認の紙・布・照明条件を検証済みとはしなかった"
+      },
+      {
+        "id": "color-work14-check3",
+        "label": "印象を全員へ保証せず、確かめたい点を挙げた"
+      }
+    ],
+    "referenceIds": [
+      "aft-toc",
+      "jcri-pccs",
+      "wcag-contrast",
+      "css-color4",
+      "practice-assumptions"
+    ],
+    "kind": "color",
+    "initial": {
+      "h": 210,
+      "s": 50,
+      "l": 65,
+      "bgH": 0,
+      "bgS": 0,
+      "bgL": 98,
+      "accentH": 240,
+      "area": 30
+    },
+    "rules": [
+      {
+        "key": "contrast",
+        "op": "gte",
+        "value": 4.5,
+        "label": "主色と背景の比4.5以上：Web実務補足"
+      },
+      {
+        "key": "angle",
+        "op": "gte",
+        "value": 90,
+        "label": "HSL色相角の短い側の差90度以上"
+      },
+      {
+        "key": "area",
+        "op": "lte",
+        "value": 15,
+        "label": "この設例のアクセント15%以下"
+      }
+    ],
+    "prompt": "配色の理由を、数値・用途・観察条件の三点で説明してください。"
+  }
+]

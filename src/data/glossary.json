@@ -1,0 +1,296 @@
+[
+  {
+    "id": "color-term01",
+    "term": "光源",
+    "description": "自ら光を出すもの。物体の見えを考える際は、照明の条件も記録します。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term02",
+    "term": "反射",
+    "description": "物体に当たった光が戻ること。紙などの物体色は、戻って眼へ届く光に関わります。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term03",
+    "term": "透過",
+    "description": "光が材料を通り抜けること。色付きの材料は、通る光の一部を吸収します。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term04",
+    "term": "物体色",
+    "description": "物体から反射・透過して眼へ届く光に関わる色。光源の条件も重要です。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term05",
+    "term": "発光する画面",
+    "description": "自ら光を出して表示する画面。紙と同じ条件で見えるわけではありません。",
+    "referenceIds": [
+      "canon-rgb"
+    ]
+  },
+  {
+    "id": "color-term06",
+    "term": "網膜",
+    "description": "眼の奥にあり、視細胞が光を信号へ変える部分です。",
+    "referenceIds": [
+      "nei-eye"
+    ]
+  },
+  {
+    "id": "color-term07",
+    "term": "錐体",
+    "description": "明るい環境での視覚に関係する視細胞です。",
+    "referenceIds": [
+      "cie-cones"
+    ]
+  },
+  {
+    "id": "color-term08",
+    "term": "桿体",
+    "description": "暗い環境での視覚に関係する視細胞です。",
+    "referenceIds": [
+      "cie-rods"
+    ]
+  },
+  {
+    "id": "color-term09",
+    "term": "視神経",
+    "description": "網膜からの情報を脳へ伝える経路です。",
+    "referenceIds": [
+      "nei-eye"
+    ]
+  },
+  {
+    "id": "color-term10",
+    "term": "色順応",
+    "description": "光の色などの変化に視覚がなじむ働き。あらゆる条件で完全一致するという保証ではありません。",
+    "referenceIds": [
+      "cie-adaptation"
+    ]
+  },
+  {
+    "id": "color-term11",
+    "term": "演色",
+    "description": "基準の照明と比べて、照明が物の色の見えへ与える影響に関する考え方です。",
+    "referenceIds": [
+      "cie-rendering"
+    ]
+  },
+  {
+    "id": "color-term12",
+    "term": "色相",
+    "description": "赤み・黄み・緑み・青みなど、色みの違いを整理する属性です。",
+    "referenceIds": [
+      "cie-hue"
+    ]
+  },
+  {
+    "id": "color-term13",
+    "term": "明度",
+    "description": "明るさの程度を整理する属性。CSS HSLのLと同じ尺度ではありません。",
+    "referenceIds": [
+      "cie-lightness",
+      "css-color4"
+    ]
+  },
+  {
+    "id": "color-term14",
+    "term": "彩度",
+    "description": "鮮やかさの程度を整理する属性。表色系の値と任意のHSL値をそのまま対応させません。",
+    "referenceIds": [
+      "jcri-pccs",
+      "cie-chroma"
+    ]
+  },
+  {
+    "id": "color-term15",
+    "term": "有彩色",
+    "description": "色みを持つ色の分類です。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term16",
+    "term": "無彩色",
+    "description": "白・灰・黒など、色みを持たない側の色。明るさの違いはあります。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term17",
+    "term": "表色系",
+    "description": "色を一定の方法で整理して伝える仕組み。数値には体系の名前も添えます。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term18",
+    "term": "PCCS",
+    "description": "色相とトーンを手掛かりに、色を整理し配色を考えられる体系です。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term19",
+    "term": "トーン",
+    "description": "明度と彩度を複合して考える色の調子。同じトーンでも全色相の明度値が一致するとは限りません。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term20",
+    "term": "加法混色",
+    "description": "色光を組み合わせる考え方。画面のRGB表示を理解する手掛かりです。",
+    "referenceIds": [
+      "cie-additive",
+      "canon-rgb"
+    ]
+  },
+  {
+    "id": "color-term21",
+    "term": "減法混色",
+    "description": "色材による光の吸収を考える混色。現実の材料では理想モデルと違いが生じます。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term22",
+    "term": "RGB",
+    "description": "赤・緑・青の成分で表示色を指定する方法。人が見える全色の再現を保証しません。",
+    "referenceIds": [
+      "canon-rgb",
+      "css-color4"
+    ]
+  },
+  {
+    "id": "color-term23",
+    "term": "CMY",
+    "description": "シアン・マゼンタ・イエローという色材の三原色です。",
+    "referenceIds": [
+      "canon-mixing"
+    ]
+  },
+  {
+    "id": "color-term24",
+    "term": "CMYK",
+    "description": "CMYに黒の成分を加えて扱う、一般的なカラー印刷の指定です。",
+    "referenceIds": [
+      "canon-rgb"
+    ]
+  },
+  {
+    "id": "color-term25",
+    "term": "対比",
+    "description": "周囲や前後に見た色との違いが、見えへ影響することを考える概念です。",
+    "referenceIds": [
+      "cie-contrast"
+    ]
+  },
+  {
+    "id": "color-term26",
+    "term": "同化",
+    "description": "周囲の色へ近づく方向に見えが影響される現象として学びます。配置や細かさ等の条件を区別します。",
+    "referenceIds": [
+      "aft-toc",
+      "cie-induction"
+    ]
+  },
+  {
+    "id": "color-term27",
+    "term": "面積効果",
+    "description": "色を使う面積によって、見えや印象の違いを考える項目です。数値指定そのものの変更とは区別します。",
+    "referenceIds": [
+      "aft-toc"
+    ]
+  },
+  {
+    "id": "color-term28",
+    "term": "アクセント",
+    "description": "一部分に変化を付け、目を向けたい箇所を作る配色上の工夫です。",
+    "referenceIds": [
+      "aft-toc"
+    ]
+  },
+  {
+    "id": "color-term29",
+    "term": "セパレーション",
+    "description": "色と色の間へ別の色を入れて、境界や配色の関係を整理する工夫です。",
+    "referenceIds": [
+      "aft-toc"
+    ]
+  },
+  {
+    "id": "color-term30",
+    "term": "グラデーション",
+    "description": "色相や明るさなどを段階的に変化させる配色の手法です。",
+    "referenceIds": [
+      "aft-toc"
+    ]
+  },
+  {
+    "id": "color-term31",
+    "term": "慣用色名",
+    "description": "自然物や生活・文化等に由来して使われる色の呼び名です。色名だけでは出力の完全一致を保証できません。",
+    "referenceIds": [
+      "aft-toc",
+      "canon-indigo"
+    ]
+  },
+  {
+    "id": "color-term32",
+    "term": "系統色名",
+    "description": "色の特徴を体系に沿って整理して伝える名前の付け方です。",
+    "referenceIds": [
+      "jcri-pccs"
+    ]
+  },
+  {
+    "id": "color-term33",
+    "term": "HSL",
+    "description": "CSSで、色相角Hと成分S・Lを用いてsRGB色を指定する形式。知覚的に等間隔の尺度ではありません。",
+    "referenceIds": [
+      "css-color4"
+    ]
+  },
+  {
+    "id": "color-term34",
+    "term": "sRGB",
+    "description": "ウェブ等で扱うRGB色空間の一つです。表示できる範囲と実物の色全体は同じではありません。",
+    "referenceIds": [
+      "css-color4"
+    ]
+  },
+  {
+    "id": "color-term35",
+    "term": "相対輝度",
+    "description": "WCAGの計算では、sRGB成分を変換し重み付けして求める値。HSLのLそのものではありません。",
+    "referenceIds": [
+      "wcag-contrast"
+    ]
+  },
+  {
+    "id": "color-term36",
+    "term": "コントラスト比",
+    "description": "WCAGの補足練習で、明るい側と暗い側の相対輝度から求める比。色の好みや試験の合格率ではありません。",
+    "referenceIds": [
+      "wcag-contrast"
+    ]
+  }
+]

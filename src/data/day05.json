@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day05",
+  "day": 5,
+  "title": "色相・明度・彩度を区別する",
+  "category": "表色系",
+  "goals": [
+    "三属性を言葉で区別する",
+    "CSSのHSLを知覚の尺度と混同しない"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "cie-hue",
+    "cie-lightness",
+    "cie-chroma",
+    "css-color4",
+    "practice-assumptions",
+    "wcag-contrast"
+  ],
+  "sections": [
+    {
+      "id": "color26-day05-s1",
+      "title": "三つの見方で色を整理する",
+      "paragraphs": [
+        "色相は赤み・黄み・緑み・青みなどの色み、明度は明るさの程度、彩度は鮮やかさの程度として色を整理する基本です。ひとつの「きれい」という感想だけでは、どの違いを比べたのか伝わりにくくなります。",
+        "有彩色には色みがあり、無彩色は白・灰・黒のように色みを持たない側の色です。白と黒も、明るさの違いとして比較できます。無彩色だから何の性質もない、という意味ではありません。"
+      ],
+      "keyPoint": "色み・明るさ・鮮やかさを分けて説明します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "cie-hue",
+        "cie-lightness",
+        "cie-chroma"
+      ]
+    },
+    {
+      "id": "color26-day05-s2",
+      "title": "画面の数値に名前を付けて扱う",
+      "paragraphs": [
+        "このアプリの操作はCSSのHSL値を使います。Hは色相の角度、SとLはCSSで決めた成分です。HSLのLが同じだから人に同じ明るさに見えるとは限りません。PCCSの明度や彩度へ自動で同じ値を移すこともできません。",
+        "Hだけを変える比較、Sだけを変える比較など、条件を固定して試すと、操作と表示の関係を追えます。これは画面の近似配色の練習です。微妙な色差を見分けたかだけで、学習者の正誤を決める設計にはしていません。"
+      ],
+      "keyPoint": "HSLの値を知覚やPCCSの値と同一視しません。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day05-q01",
+      "sectionId": "color26-day05-s1",
+      "category": "表色系",
+      "prompt": "「赤みが強い青」など、色みの違いを整理する属性は？",
+      "explanation": "色みの種類に注目する見方が色相です。",
+      "referenceIds": [
+        "cie-hue",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相"
+        },
+        {
+          "id": "c2",
+          "text": "明度"
+        },
+        {
+          "id": "c3",
+          "text": "彩度"
+        },
+        {
+          "id": "c4",
+          "text": "トーン"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day05-q02",
+      "sectionId": "color26-day05-s1",
+      "category": "表色系",
+      "prompt": "灰色を明るいものと暗いものへ分けるとき、主に注目する属性は？",
+      "explanation": "無彩色でも明るさの程度を比較できます。",
+      "referenceIds": [
+        "cie-lightness",
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相"
+        },
+        {
+          "id": "c2",
+          "text": "明度"
+        },
+        {
+          "id": "c3",
+          "text": "彩度"
+        },
+        {
+          "id": "c4",
+          "text": "色相差"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day05-q03",
+      "sectionId": "color26-day05-s1",
+      "category": "表色系",
+      "prompt": "同じ色相の中で、鮮やかな色とくすんだ色を比べるときの属性は？",
+      "explanation": "色相の違いではなく、鮮やかさの程度に注目した比較です。",
+      "referenceIds": [
+        "jcri-pccs",
+        "cie-chroma",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相"
+        },
+        {
+          "id": "c2",
+          "text": "面積"
+        },
+        {
+          "id": "c3",
+          "text": "彩度"
+        },
+        {
+          "id": "c4",
+          "text": "色相差"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day05-q04",
+      "sectionId": "color26-day05-s1",
+      "category": "表色系",
+      "prompt": "白・灰・黒の分類として適切なのは？",
+      "explanation": "無彩色は色みのない側で整理します。白・灰・黒には明るさの違いがあります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず同じ明度の色"
+        },
+        {
+          "id": "c2",
+          "text": "RGBでは指定できない色"
+        },
+        {
+          "id": "c3",
+          "text": "青系だけの有彩色"
+        },
+        {
+          "id": "c4",
+          "text": "無彩色"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day05-q05",
+      "sectionId": "color26-day05-s2",
+      "category": "表色系",
+      "prompt": "CSSのHSLでSを0にした画面配色について、適切なのは？",
+      "explanation": "CSS HSLでS=0なら、色相成分は表示に影響しません。明るさの成分Lは別に残ります。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "Hの値を変えても色みのない表示になる"
+        },
+        {
+          "id": "c2",
+          "text": "PCCSの最高彩度を意味する"
+        },
+        {
+          "id": "c3",
+          "text": "必ず真っ黒になる"
+        },
+        {
+          "id": "c4",
+          "text": "必ず黄色になる"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day05-q06",
+      "sectionId": "color26-day05-s2",
+      "category": "表色系",
+      "prompt": "HSLでL=50の黄色と青を作った。説明として適切なのは？",
+      "explanation": "HSLは便利な表示形式ですが、知覚の差を均等に表す尺度ではありません。",
+      "referenceIds": [
+        "css-color4",
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どちらもPCCS明度5と確定する"
+        },
+        {
+          "id": "c2",
+          "text": "Lの数値が同じでも知覚的な明るさが同じとは限らない"
+        },
+        {
+          "id": "c3",
+          "text": "相対輝度は必ず同じになる"
+        },
+        {
+          "id": "c4",
+          "text": "色相だけで彩度も必ず同じに感じる"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day05-q07",
+      "sectionId": "color26-day05-s2",
+      "category": "表色系",
+      "prompt": "HSLのHだけを比較したい。作業条件は？",
+      "explanation": "変える成分を一つにすると、その操作が表示へ与える影響を追いやすくなります。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "HとSとLを毎回すべて変える"
+        },
+        {
+          "id": "c2",
+          "text": "色の値を記録しない"
+        },
+        {
+          "id": "c3",
+          "text": "SとLを固定してHを変える"
+        },
+        {
+          "id": "c4",
+          "text": "画面ごとに背景と文字も無条件に変える"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day05-q08",
+      "sectionId": "color26-day05-s2",
+      "category": "表色系",
+      "prompt": "「明るい」と「鮮やか」の説明を混同しないための記録は？",
+      "explanation": "色の違いをどの属性で見たかを書くと、異なる性質を混同しにくくなります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "cie-lightness",
+        "cie-chroma",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どちらも同じ語として扱う"
+        },
+        {
+          "id": "c2",
+          "text": "明るさは色の大きさだけとする"
+        },
+        {
+          "id": "c3",
+          "text": "鮮やかなら必ず白に近いとする"
+        },
+        {
+          "id": "c4",
+          "text": "比較した属性と固定した条件をそれぞれ書く"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

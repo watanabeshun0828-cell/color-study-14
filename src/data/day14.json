@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day14",
+  "day": 14,
+  "title": "配色の条件と理由を総復習する",
+  "category": "総合演習",
+  "goals": [
+    "色の仕組みと配色の説明をつなげる",
+    "数値の確認と表現の自己確認を使い分ける"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "canon-mixing",
+    "practice-assumptions",
+    "aft-products",
+    "css-color4",
+    "cie-induction",
+    "cie-contrast",
+    "cie-cones",
+    "cie-rods",
+    "cie-rendering",
+    "wcag-contrast",
+    "canon-indigo",
+    "canon-image"
+  ],
+  "sections": [
+    {
+      "id": "color26-day14-s1",
+      "title": "条件を先に整理する",
+      "paragraphs": [
+        "総復習では、架空の制作依頼にある目的、媒体、受け手を整理します。画面で指定する値、面積、文字の情報と、紙や布などで補う確認を分けます。色名だけ、好みだけ、数値だけのいずれかで説明を終えないようにしましょう。",
+        "配色の良い点や修正点を説明するときは、色相の共通性、トーン、面積、配置など、何を変えたかへ結び付けます。表現意図は自分の言葉で書き、機械的な条件確認とは別に読み返します。"
+      ],
+      "keyPoint": "目的・媒体・条件と、変更した性質をつなげます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-mixing",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day14-s2",
+      "title": "できたことと残る練習を分ける",
+      "paragraphs": [
+        "学習の得点はこのアプリの独自問題への回答記録です。本試験の合否や合格確率へ換算しません。間違いは、用語の混同、条件の読み違い、値の確認などへ分け、必要な講義へ戻って振り返ります。",
+        "画面の近似配色では、実物カードの微妙な違いや印刷色の管理まで検証していません。未収録の色名や配色の反復も補ってください。14日は学習を区切る単位で、必要期間や仕事の受注を保証する日数ではありません。"
+      ],
+      "keyPoint": "確認した範囲を具体的に述べ、未確認のことまで保証しません。",
+      "referenceIds": [
+        "aft-toc",
+        "aft-products",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day14-q01",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "架空のチラシ依頼で「画面と紙で同じ見えを」と言われた。適切な進め方は？",
+      "explanation": "発光と反射、紙やインクなど、再現条件の違いを考えて確認します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "各媒体の再現条件を確認し、実際の出力でも比較する"
+        },
+        {
+          "id": "c2",
+          "text": "RGBの数値だけで完全一致を保証する"
+        },
+        {
+          "id": "c3",
+          "text": "画面を一台見て印刷確認を省く"
+        },
+        {
+          "id": "c4",
+          "text": "色名が同じならすべて同じとする"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day14-q02",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "PCCSのトーンと、CSS HSLのLについて正しい説明は？",
+      "explanation": "体系と性質の組合せを区別し、画面の値を根拠なく公式色票へ対応させません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "トーンはLの値だけで完全に決まる"
+        },
+        {
+          "id": "c2",
+          "text": "トーンは明度・彩度の複合概念で、HSLのL一つとは同じではない"
+        },
+        {
+          "id": "c3",
+          "text": "PCCSの番号をHSLへそのまま入れれば公式色票になる"
+        },
+        {
+          "id": "c4",
+          "text": "同じLならすべて同じトーンと確定する"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day14-q03",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "加法混色と減法混色を取り違えない確認は？",
+      "explanation": "混ぜる対象と仕組みを分けると、表示と印刷の混同を防げます。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "両方とも絵の具だけの話にする"
+        },
+        {
+          "id": "c2",
+          "text": "RGBとCMYを同じ並び替えとする"
+        },
+        {
+          "id": "c3",
+          "text": "色光を組み合わせるのか、色材が光を吸収するのかを確認する"
+        },
+        {
+          "id": "c4",
+          "text": "どちらも必ず同じ白になるとする"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day14-q04",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "同じRGBの小さな色面が、周囲を変えると違って感じられた。正しい整理は？",
+      "explanation": "見えには隣接する刺激の影響があり、データの値そのものとは分けて記録します。",
+      "referenceIds": [
+        "cie-induction",
+        "cie-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ずRGBのデータが壊れている"
+        },
+        {
+          "id": "c2",
+          "text": "数値が同じなら感じ方の差は存在しないとする"
+        },
+        {
+          "id": "c3",
+          "text": "どんな人でも同じ差を感じたと決める"
+        },
+        {
+          "id": "c4",
+          "text": "値の変更と、周囲による知覚の影響を分ける"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day14-q05",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "錐体と桿体の学習内容として、この組合せに合うのは？",
+      "explanation": "視細胞の働きについての区別を、表示や印刷の用語と混同しません。",
+      "referenceIds": [
+        "cie-cones",
+        "cie-rods",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "錐体と明るい環境、桿体と暗い環境での視覚"
+        },
+        {
+          "id": "c2",
+          "text": "錐体と暗い環境、桿体と明るい環境での視覚"
+        },
+        {
+          "id": "c3",
+          "text": "両者とも周囲の照明を発光させる働き"
+        },
+        {
+          "id": "c4",
+          "text": "両者とも網膜ではなく水晶体の細胞"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day14-q06",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "照明を変えたときの物の色の見えを学ぶ概念は？",
+      "explanation": "演色は、基準となる照明と比べた物の色の見えへの影響に関係します。",
+      "referenceIds": [
+        "cie-rendering",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色順応"
+        },
+        {
+          "id": "c2",
+          "text": "演色"
+        },
+        {
+          "id": "c3",
+          "text": "加法混色"
+        },
+        {
+          "id": "c4",
+          "text": "面積効果"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day14-q07",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "同じ色相の配色で単調に感じた。変化を検討できるものは？",
+      "explanation": "色相の共通性を残しながら、他の条件から違いを作ることができます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "同じ色相なので変更をすべて禁止する"
+        },
+        {
+          "id": "c2",
+          "text": "用途を無条件に変える"
+        },
+        {
+          "id": "c3",
+          "text": "明るさ・鮮やかさ・面積や配置"
+        },
+        {
+          "id": "c4",
+          "text": "照明と素材の情報を消す"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day14-q08",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "架空バナーで強調部分を小さくまとめたい。どの確認が目的に合う？",
+      "explanation": "アクセントの役割と情報の伝達を一緒に確認します。",
+      "referenceIds": [
+        "aft-toc",
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "全要素を最も鮮やかな色にする"
+        },
+        {
+          "id": "c2",
+          "text": "色名の順位だけで決める"
+        },
+        {
+          "id": "c3",
+          "text": "文字を背景と必ず同一色にする"
+        },
+        {
+          "id": "c4",
+          "text": "アクセントが占める面積と、読み取れる情報を確認する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day14-q09",
+      "sectionId": "color26-day14-s1",
+      "category": "総合演習",
+      "prompt": "色と色の間へ別の色を入れる修正を説明する言葉は？",
+      "explanation": "技法の名前と、どんな境界を整理したかを合わせて説明します。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "セパレーション"
+        },
+        {
+          "id": "c2",
+          "text": "減法混色"
+        },
+        {
+          "id": "c3",
+          "text": "眼の色順応"
+        },
+        {
+          "id": "c4",
+          "text": "明暗にかかわらず同一値という意味"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day14-q10",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "慣用色名を依頼者と共有できた。次の制作で必要な姿勢は？",
+      "explanation": "名前によるイメージの共有と、実制作の指定や確認を区別します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-indigo",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "名前を知ったので現物を見ずに一致を保証する"
+        },
+        {
+          "id": "c2",
+          "text": "必要に応じ見本や素材、表示・出力条件も確認する"
+        },
+        {
+          "id": "c3",
+          "text": "任意のRGB値を必ず唯一の正解とする"
+        },
+        {
+          "id": "c4",
+          "text": "色名は文化と無関係だと説明する"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day14-q11",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "Web実務補足で、黒と白のコントラスト比は？",
+      "explanation": "相対輝度は黒0、白1なので、(1＋0.05)÷(0＋0.05)＝21です。色彩検定の得点ではありません。",
+      "referenceIds": [
+        "wcag-contrast",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [
+        {
+          "expression": "(1＋0.05)÷(0＋0.05)＝21",
+          "operator": "quotient",
+          "operands": [
+            1.05,
+            0.05
+          ],
+          "result": 21,
+          "unit": "比",
+          "rounding": "none"
+        }
+      ],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "1対1"
+        },
+        {
+          "id": "c2",
+          "text": "4.5対1"
+        },
+        {
+          "id": "c3",
+          "text": "21対1"
+        },
+        {
+          "id": "c4",
+          "text": "0対1"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day14-q12",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "アプリでHSL条件が一致した配色について、正確な報告は？",
+      "explanation": "機械が確認した範囲を超えて、実物や好みの検証済みとは扱いません。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "すべての人の好みに合うと自動認定した"
+        },
+        {
+          "id": "c2",
+          "text": "公式PCCS色票を現物で検証した"
+        },
+        {
+          "id": "c3",
+          "text": "印刷後の見えを自動測定した"
+        },
+        {
+          "id": "c4",
+          "text": "指定した画面上の数値条件を満たした"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day14-q13",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "小物と壁面へ同じ近似色を使う案を比較する際の観点は？",
+      "explanation": "同じ指定値でも、用途と周囲の条件は同じとは限りません。",
+      "referenceIds": [
+        "aft-toc",
+        "cie-induction",
+        "cie-rendering",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "面積・配置・周囲や照明も含めた違い"
+        },
+        {
+          "id": "c2",
+          "text": "同じRGBなら印象の違いを認めない"
+        },
+        {
+          "id": "c3",
+          "text": "大きい面では必ず数値が自動変更される"
+        },
+        {
+          "id": "c4",
+          "text": "どちらも紙の表色系だけで評価する"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day14-q14",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "二つの案を見た依頼者の感想が予想と違った。学習記録として適切なのは？",
+      "explanation": "表現の意図と、実際の受け取り方を分けて振り返ります。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "予想と同じになるよう感想を書き換える"
+        },
+        {
+          "id": "c2",
+          "text": "自分の意図と相手の感想を分け、修正理由を書く"
+        },
+        {
+          "id": "c3",
+          "text": "依頼者の好みを誤答として削除する"
+        },
+        {
+          "id": "c4",
+          "text": "数値が一致したので意図の説明をやめる"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day14-q15",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "復習で「トーンと色相を混同した」と気付いた。戻る内容は？",
+      "explanation": "混同した概念へ戻ると、どの性質を答える問題だったかを整理できます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "画面色と印刷色の完全一致という前提"
+        },
+        {
+          "id": "c2",
+          "text": "RGBの三成分だけでトーンを定義する説明"
+        },
+        {
+          "id": "c3",
+          "text": "色みと、明度・彩度を複合した色の調子の違い"
+        },
+        {
+          "id": "c4",
+          "text": "色名の文字数を彩度とする説明"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day14-q16",
+      "sectionId": "color26-day14-s2",
+      "category": "総合演習",
+      "prompt": "この14分割の教材を終えた後の説明として適切なのは？",
+      "explanation": "学習単位と成果の保証は別です。収録範囲と不足を確かめて次の練習へ進みます。",
+      "referenceIds": [
+        "aft-toc",
+        "aft-products",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "14日で必ず合格したと宣言する"
+        },
+        {
+          "id": "c2",
+          "text": "アプリ得点を本試験の合格確率へ換算する"
+        },
+        {
+          "id": "c3",
+          "text": "仕事の受注と収益が保証されたと説明する"
+        },
+        {
+          "id": "c4",
+          "text": "学んだ内容と残る実物・色名等の練習を整理する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

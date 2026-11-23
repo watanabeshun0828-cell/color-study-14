@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day08",
+  "day": 8,
+  "title": "印象と使う場面を考える",
+  "category": "色彩心理",
+  "goals": [
+    "暖色・寒色等の傾向を用途から考える",
+    "印象や連想を一律の効果と扱わない"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "canon-image",
+    "practice-assumptions",
+    "css-color4"
+  ],
+  "sections": [
+    {
+      "id": "color26-day08-s1",
+      "title": "暖かさや距離の印象",
+      "paragraphs": [
+        "赤や橙などは暖かい印象、青系などは冷たい印象と関連付けて説明されることがあります。これは物体の温度そのものを測る方法ではありません。色の連想を使うときは、誰がどんな場面で見るかも考えます。",
+        "暖色が手前に、寒色が奥に感じられるといった傾向も、面積、周囲、明るさなどと合わせて観察します。色だけから実際の距離や重さを計算することはできません。傾向を、必ず起こる効果と言い換えないようにします。"
+      ],
+      "keyPoint": "色の印象と、実際の温度・距離・重さは別です。",
+      "referenceIds": [
+        "canon-image",
+        "aft-toc",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day08-s2",
+      "title": "見た人の言葉を残す",
+      "paragraphs": [
+        "色の連想や好みには、経験、文化、目的なども関わります。「青なら全員が同じ印象になる」と決めず、意図する受け手に見てもらい、どの部分をどう感じたかを確かめます。感想が異なること自体を誤答にしません。",
+        "注意を伝える表示なら、色に加えて言葉や記号も使います。印象を整えることと、必要な情報を確実に受け取れるようにすることを並行して考えます。健康状態や売上などを、色だけで保証する説明は避けます。"
+      ],
+      "keyPoint": "表現意図と、実際に得られた感想を分けて記録します。",
+      "referenceIds": [
+        "canon-image",
+        "css-color4",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day08-q01",
+      "sectionId": "color26-day08-s1",
+      "category": "色彩心理",
+      "prompt": "一般的な暖色の例として、この分類に合う色の系統は？",
+      "explanation": "暖かさを連想させる色の例です。ただし物の実際の温度を示すわけではありません。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤・橙系"
+        },
+        {
+          "id": "c2",
+          "text": "青系だけ"
+        },
+        {
+          "id": "c3",
+          "text": "無彩色だけ"
+        },
+        {
+          "id": "c4",
+          "text": "緑系だけ"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day08-q02",
+      "sectionId": "color26-day08-s1",
+      "category": "色彩心理",
+      "prompt": "寒色という言葉が主に扱うものは？",
+      "explanation": "色による印象の整理です。実際の温度の測定値とは異なります。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず氷点下であるという物理的温度"
+        },
+        {
+          "id": "c2",
+          "text": "青系などの冷たさを感じる色の印象"
+        },
+        {
+          "id": "c3",
+          "text": "RGBの値がすべて0の色だけ"
+        },
+        {
+          "id": "c4",
+          "text": "照明器具の消費電力"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day08-q03",
+      "sectionId": "color26-day08-s1",
+      "category": "色彩心理",
+      "prompt": "赤い箱と青い箱を見て、赤い方が近く感じた。説明として適切なのは？",
+      "explanation": "色の印象は、実際の位置や重さを直接測定するものではありません。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色の角度から距離を正確に計算できた"
+        },
+        {
+          "id": "c2",
+          "text": "赤い物は必ず手前に置かれている"
+        },
+        {
+          "id": "c3",
+          "text": "色による印象の一例で、実際の距離とは分けて考える"
+        },
+        {
+          "id": "c4",
+          "text": "青い物は必ず軽い"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day08-q04",
+      "sectionId": "color26-day08-s2",
+      "category": "色彩心理",
+      "prompt": "配色について二人の感想が異なった。適切な対応は？",
+      "explanation": "感じ方に違いがあることを前提に、目的との関係を確かめます。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず片方の好みを誤りと採点する"
+        },
+        {
+          "id": "c2",
+          "text": "同じRGBなら感想も一致すると決める"
+        },
+        {
+          "id": "c3",
+          "text": "多数派以外の意見を記録しない"
+        },
+        {
+          "id": "c4",
+          "text": "用途や経験の違いも考え、感じた理由を確かめる"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day08-q05",
+      "sectionId": "color26-day08-s2",
+      "category": "色彩心理",
+      "prompt": "架空の依頼に「落ち着いた案内を」とある。説明可能な進め方は？",
+      "explanation": "印象を確かめる相手と用途を明らかにし、伝達面の確認も行います。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "複数案を作り、相手が落ち着くと感じる要因を確かめる"
+        },
+        {
+          "id": "c2",
+          "text": "一色だけで全員の感情を保証する"
+        },
+        {
+          "id": "c3",
+          "text": "好みの色を選んだ理由は一切書かない"
+        },
+        {
+          "id": "c4",
+          "text": "印象だけを見て文字の読みやすさを無視する"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day08-q06",
+      "sectionId": "color26-day08-s2",
+      "category": "色彩心理",
+      "prompt": "エラーを赤い枠だけで示す画面を改善するには？",
+      "explanation": "色だけに意味を任せず、エラーの内容を別の手段でも伝えます。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色をもっと細かく変えるだけにする"
+        },
+        {
+          "id": "c2",
+          "text": "理由を示す文字や記号も付ける"
+        },
+        {
+          "id": "c3",
+          "text": "枠の色名だけを説明書へ書く"
+        },
+        {
+          "id": "c4",
+          "text": "表示条件の違いは考えない"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day08-q07",
+      "sectionId": "color26-day08-s2",
+      "category": "色彩心理",
+      "prompt": "「この配色にすれば必ず成約する」という説明は？",
+      "explanation": "色の使い方を学ぶことと、成果を無条件に保証することは別です。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色彩学を学べば常に保証できる"
+        },
+        {
+          "id": "c2",
+          "text": "暖色ならどの用途でも確実に正しい"
+        },
+        {
+          "id": "c3",
+          "text": "色以外の条件を無視した保証で、根拠のある説明とは分ける"
+        },
+        {
+          "id": "c4",
+          "text": "印刷色が同じなら保証できる"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day08-q08",
+      "sectionId": "color26-day08-s2",
+      "category": "色彩心理",
+      "prompt": "配色案を見てもらうときの記録として適切なのは？",
+      "explanation": "意図と観察結果を分け、実際に確かめた内容を残します。",
+      "referenceIds": [
+        "canon-image",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色名だけを残し確認条件を消す"
+        },
+        {
+          "id": "c2",
+          "text": "自分の予想を実測結果と書く"
+        },
+        {
+          "id": "c3",
+          "text": "好みの違いをすべて不正解として集計する"
+        },
+        {
+          "id": "c4",
+          "text": "対象者・用途・表示条件と、得られた具体的な感想"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

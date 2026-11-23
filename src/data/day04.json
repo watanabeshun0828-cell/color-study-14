@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day04",
+  "day": 4,
+  "title": "光と色材の混色を分ける",
+  "category": "混色",
+  "goals": [
+    "加法混色と減法混色を区別する",
+    "画面の試作と実物の混色の限界を知る"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "canon-rgb",
+    "canon-mixing",
+    "cie-additive",
+    "practice-assumptions",
+    "css-color4"
+  ],
+  "sections": [
+    {
+      "id": "color26-day04-s1",
+      "title": "光を重ねる場合",
+      "paragraphs": [
+        "赤・緑・青の光を組み合わせる加法混色は、ディスプレイの理解につながります。理想化した同じ条件では、赤と緑から黄色系、三成分を十分に組み合わせると白を表せます。各成分の強さを変えると表示色も変わります。",
+        "画面上の重なり図は説明用に作った模式図です。CSSの透明度を重ねただけの結果を、そのまま実際の光や顔料を混ぜた結果とみなしません。方式を確かめてから、何が増えたのかを考えます。"
+      ],
+      "keyPoint": "加法混色は色光を組み合わせる考え方です。",
+      "referenceIds": [
+        "canon-rgb",
+        "canon-mixing",
+        "cie-additive"
+      ]
+    },
+    {
+      "id": "color26-day04-s2",
+      "title": "色材が光を吸収する場合",
+      "paragraphs": [
+        "印刷などで使うシアン・マゼンタ・イエローの色材は、光の一部を吸収します。色材を重ねる減法混色では、戻ってくる光の成分が減る側へ考えます。RGBとCMYは、同じ三文字の色名の並びではありません。",
+        "理想的なモデルと現実のインク・絵の具は違います。色材を混ぜれば必ず完全な黒になるわけではなく、紙や色材にも左右されます。印刷で黒の成分を加えることと、画面で三成分を強めて白にすることを区別します。"
+      ],
+      "keyPoint": "減法混色では光の吸収を考え、現実の材料の条件も確認します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day04-q01",
+      "sectionId": "color26-day04-s1",
+      "category": "混色",
+      "prompt": "赤・緑・青の光を組み合わせる方式は？",
+      "explanation": "光を組み合わせる考え方を加法混色と呼びます。",
+      "referenceIds": [
+        "cie-additive",
+        "canon-rgb",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "加法混色"
+        },
+        {
+          "id": "c2",
+          "text": "減法混色"
+        },
+        {
+          "id": "c3",
+          "text": "色順応"
+        },
+        {
+          "id": "c4",
+          "text": "同時対比"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day04-q02",
+      "sectionId": "color26-day04-s1",
+      "category": "混色",
+      "prompt": "理想化したRGBの光で、赤と緑を組み合わせると表せる色の系統は？",
+      "explanation": "赤と緑の光を組み合わせる例です。絵の具の赤と緑を混ぜる話とは区別します。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "青色系"
+        },
+        {
+          "id": "c2",
+          "text": "黄色系"
+        },
+        {
+          "id": "c3",
+          "text": "マゼンタ系"
+        },
+        {
+          "id": "c4",
+          "text": "シアン系"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day04-q03",
+      "sectionId": "color26-day04-s1",
+      "category": "混色",
+      "prompt": "RGBの三成分を十分に組み合わせて白を表すのは、どちらの考え方？",
+      "explanation": "光を組み合わせることと、色材を重ねることでは仕組みが異なります。",
+      "referenceIds": [
+        "canon-rgb",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色材が光を吸収する減法混色"
+        },
+        {
+          "id": "c2",
+          "text": "色の周囲による対比"
+        },
+        {
+          "id": "c3",
+          "text": "加法混色"
+        },
+        {
+          "id": "c4",
+          "text": "照明に対する色順応"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day04-q04",
+      "sectionId": "color26-day04-s2",
+      "category": "混色",
+      "prompt": "減法混色に関係する三原色の組合せは？",
+      "explanation": "色材の三原色としてCMYを区別して覚えます。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "赤・緑・青"
+        },
+        {
+          "id": "c2",
+          "text": "白・灰・黒"
+        },
+        {
+          "id": "c3",
+          "text": "明度・彩度・面積"
+        },
+        {
+          "id": "c4",
+          "text": "シアン・マゼンタ・イエロー"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day04-q05",
+      "sectionId": "color26-day04-s2",
+      "category": "混色",
+      "prompt": "印刷で色材を重ねるとき、基本として考える光の変化は？",
+      "explanation": "反射して眼へ戻る光を考えます。発光する画面とは別の仕組みです。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色材によって一部の光が吸収される"
+        },
+        {
+          "id": "c2",
+          "text": "色材が必ず太陽と同じ光を発生させる"
+        },
+        {
+          "id": "c3",
+          "text": "光源が存在しなくてもすべて同じに見える"
+        },
+        {
+          "id": "c4",
+          "text": "物体の大きさだけが変わる"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day04-q06",
+      "sectionId": "color26-day04-s2",
+      "category": "混色",
+      "prompt": "実際のCMYのインクを混ぜた結果について適切なのは？",
+      "explanation": "理想モデルと実際の紙・インクを分けます。出力での確認が必要です。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どんな材料でも必ず同じ完全な黒になる"
+        },
+        {
+          "id": "c2",
+          "text": "材料の性質があり、完全な黒とは限らない"
+        },
+        {
+          "id": "c3",
+          "text": "紙の種類は一切影響しない"
+        },
+        {
+          "id": "c4",
+          "text": "画面のHSL値だけで結果を保証できる"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day04-q07",
+      "sectionId": "color26-day04-s2",
+      "category": "混色",
+      "prompt": "CSSで半透明の赤い箱を緑の箱へ重ねた。この結果の説明は？",
+      "explanation": "ブラウザーの合成にはその計算方式があります。物理的な材料の実験結果と同じだとは限りません。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "実際の絵の具の混合比を正確に測定した"
+        },
+        {
+          "id": "c2",
+          "text": "PCCS公式色票を生成した"
+        },
+        {
+          "id": "c3",
+          "text": "そのCSS合成の結果であり、顔料の混色実験とは区別する"
+        },
+        {
+          "id": "c4",
+          "text": "印刷の全条件を再現した"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day04-q08",
+      "sectionId": "color26-day04-s1",
+      "category": "混色",
+      "prompt": "混色について質問されたとき、最初に確認する条件は？",
+      "explanation": "混ぜる対象をはっきりさせると、加法と減法の混同を防げます。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "光でも色材でも常に同じ混色結果と考える"
+        },
+        {
+          "id": "c2",
+          "text": "色名が共通していれば材料の違いを省く"
+        },
+        {
+          "id": "c3",
+          "text": "見えた結果だけで混色方式を決める"
+        },
+        {
+          "id": "c4",
+          "text": "光を重ねるのか、色材を重ねるのか"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day03",
+  "day": 3,
+  "title": "眼と照明による見えを知る",
+  "category": "光と色",
+  "goals": [
+    "網膜・錐体・桿体の役割を区別する",
+    "色順応と照明の影響を説明する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "nei-eye",
+    "cie-cones",
+    "cie-rods",
+    "cie-rendering",
+    "cie-adaptation",
+    "practice-assumptions",
+    "aft-products"
+  ],
+  "sections": [
+    {
+      "id": "color26-day03-s1",
+      "title": "光の情報を受け取るしくみ",
+      "paragraphs": [
+        "眼へ入った光は、角膜や水晶体を経て網膜へ届きます。網膜の視細胞が光を信号へ変え、その情報が視神経を通って脳へ伝わります。物体の色は、眼から光を出して調べているわけではありません。",
+        "視細胞には錐体と桿体があります。錐体は明るい環境での視覚、桿体は暗い環境での視覚と関係します。この区別は見え方を学ぶための基本であり、ここで個人の眼の健康状態を診断するものではありません。"
+      ],
+      "keyPoint": "光→網膜の視細胞→視神経→脳という流れを確認します。",
+      "referenceIds": [
+        "nei-eye",
+        "cie-cones",
+        "cie-rods"
+      ]
+    },
+    {
+      "id": "color26-day03-s2",
+      "title": "照明の違いを条件に含める",
+      "paragraphs": [
+        "照明が変わると、物体に届く光が変わり、物体の見えも変わることがあります。演色は、基準となる照明と比べた物の色の見えへの影響を考える概念です。単に照明が明るいかどうかだけとは異なります。",
+        "色順応は、光の色などの変化に視覚がなじんでいく働きです。いつも完全に同じ見えを保つという保証ではありません。試作品は、実際に使う照明や周囲の条件でも確かめ、観察した条件を記録します。"
+      ],
+      "keyPoint": "照明の明るさ、物の色の見え、順応を混同しません。",
+      "referenceIds": [
+        "cie-rendering",
+        "cie-adaptation",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day03-q01",
+      "sectionId": "color26-day03-s1",
+      "category": "光と色",
+      "prompt": "光を受け取り信号へ変える視細胞がある場所は？",
+      "explanation": "網膜の視細胞が光の情報を信号に変える流れです。",
+      "referenceIds": [
+        "nei-eye",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "網膜"
+        },
+        {
+          "id": "c2",
+          "text": "角膜"
+        },
+        {
+          "id": "c3",
+          "text": "虹彩"
+        },
+        {
+          "id": "c4",
+          "text": "水晶体"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day03-q02",
+      "sectionId": "color26-day03-s1",
+      "category": "光と色",
+      "prompt": "眼で受け取った情報を脳へ伝える経路は？",
+      "explanation": "信号は視神経を通って脳へ伝わります。",
+      "referenceIds": [
+        "nei-eye",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "水晶体"
+        },
+        {
+          "id": "c2",
+          "text": "視神経"
+        },
+        {
+          "id": "c3",
+          "text": "虹彩"
+        },
+        {
+          "id": "c4",
+          "text": "角膜"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day03-q03",
+      "sectionId": "color26-day03-s1",
+      "category": "光と色",
+      "prompt": "錐体と桿体について適切なのは？",
+      "explanation": "網膜の視細胞の区別です。環境による見えを考える基本になります。",
+      "referenceIds": [
+        "cie-cones",
+        "cie-rods",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "錐体は暗い環境、桿体は明るい環境での視覚に関係する"
+        },
+        {
+          "id": "c2",
+          "text": "錐体と桿体は同じ働きだけをする"
+        },
+        {
+          "id": "c3",
+          "text": "錐体は明るい環境、桿体は暗い環境での視覚に関係する"
+        },
+        {
+          "id": "c4",
+          "text": "桿体だけが昼間の色の識別を担う"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day03-q04",
+      "sectionId": "color26-day03-s2",
+      "category": "光と色",
+      "prompt": "照明が変わったあと、しだいにその光の条件になじむ視覚の働きは？",
+      "explanation": "色順応は、光の色などの変化に対して視覚がなじんでいく過程です。",
+      "referenceIds": [
+        "cie-adaptation",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "同時対比"
+        },
+        {
+          "id": "c2",
+          "text": "加法混色"
+        },
+        {
+          "id": "c3",
+          "text": "面積効果"
+        },
+        {
+          "id": "c4",
+          "text": "色順応"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day03-q05",
+      "sectionId": "color26-day03-s2",
+      "category": "光と色",
+      "prompt": "演色の説明として適切なのは？",
+      "explanation": "演色は物の色の見えに関する概念で、照明の明るさだけを表すものではありません。",
+      "referenceIds": [
+        "cie-rendering",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "照明が物の色の見えへ与える影響を基準と比べて考える"
+        },
+        {
+          "id": "c2",
+          "text": "照明の光の量だけを比較すること"
+        },
+        {
+          "id": "c3",
+          "text": "物の面積だけで色の見えを決めること"
+        },
+        {
+          "id": "c4",
+          "text": "色材を重ねて光を吸収すること"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day03-q06",
+      "sectionId": "color26-day03-s2",
+      "category": "光と色",
+      "prompt": "店頭で使う布の見本を選ぶ。色の確認条件として適切なのは？",
+      "explanation": "用途に近い条件で実物を確かめると、画面だけでは分からない違いを確認できます。",
+      "referenceIds": [
+        "cie-rendering",
+        "aft-products",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "画面の見えだけで店頭での見えを確定する"
+        },
+        {
+          "id": "c2",
+          "text": "実際に近い照明でも見比べ、条件を記録する"
+        },
+        {
+          "id": "c3",
+          "text": "色名が同じなら照明条件を比較しない"
+        },
+        {
+          "id": "c4",
+          "text": "照明を変えた結果を記録せずに採用する"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day03-q07",
+      "sectionId": "color26-day03-s2",
+      "category": "光と色",
+      "prompt": "「順応するから、照明が違っても必ず完全に同じ色に見える」という説明は？",
+      "explanation": "色順応は補償の働きですが、どの条件でも完全一致するという意味ではありません。",
+      "referenceIds": [
+        "cie-adaptation",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "常に正しいので実物確認は不要"
+        },
+        {
+          "id": "c2",
+          "text": "色順応とはファイルを保存する機能である"
+        },
+        {
+          "id": "c3",
+          "text": "保証しすぎており、照明と観察条件の確認が必要"
+        },
+        {
+          "id": "c4",
+          "text": "同じ色名なら照明は無関係"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day03-q08",
+      "sectionId": "color26-day03-s1",
+      "category": "光と色",
+      "prompt": "光から色の知覚につながる学習上の流れとして適切なのは？",
+      "explanation": "光を受け取る網膜と、情報を伝える視神経、その先の脳を順に結び付けます。",
+      "referenceIds": [
+        "nei-eye",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "網膜は眼へ入る光を集めるレンズだという説明"
+        },
+        {
+          "id": "c2",
+          "text": "色は視神経を経ずに脳へ届くという説明"
+        },
+        {
+          "id": "c3",
+          "text": "視細胞は眼から光を発しているという説明"
+        },
+        {
+          "id": "c4",
+          "text": "光が網膜の視細胞で信号となり、視神経を通って脳へ伝わる"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

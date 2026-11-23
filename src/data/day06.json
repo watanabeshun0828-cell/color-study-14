@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day06",
+  "day": 6,
+  "title": "表色系を使い分ける",
+  "category": "表色系",
+  "goals": [
+    "表色系の目的を説明する",
+    "PCCS・RGB・HSLの数値を混同しない"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "css-color4",
+    "aft-products",
+    "canon-mixing",
+    "practice-assumptions"
+  ],
+  "sections": [
+    {
+      "id": "color26-day06-s1",
+      "title": "色を整理して伝える道具",
+      "paragraphs": [
+        "表色系は、色を一定の方法で整理し、伝えられるようにする仕組みです。色名の印象だけに頼らず、どの体系で表したかを明らかにします。別の体系の同じ数字が、同じ色を表すとは限りません。",
+        "PCCSは配色を考えるために色相とトーンを使って整理できる体系です。色を画面へ出すRGBや、CSSのHSLとは目的や構成が異なります。色を表す道具の名前を確かめることが、比較の最初の一歩です。"
+      ],
+      "keyPoint": "数字の前に「どの体系の値か」を確認します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4"
+      ]
+    },
+    {
+      "id": "color26-day06-s2",
+      "title": "色票と画面の近似を分ける",
+      "paragraphs": [
+        "実物の色票は、決めた材料や管理された条件で色を示す道具です。ウェブ画面の任意のRGB値へ同じ名前を付けただけで、正確な公式色票になるわけではありません。RGBによる試作は、試作として記録します。",
+        "配色の相談で色を伝えるときは、体系、指定値、表示や出力の条件を合わせて示します。印刷物や製品へ使う段階では、必要な実物確認を補います。このアプリの配色操作はPCCSの測色器でも色票変換器でもありません。"
+      ],
+      "keyPoint": "近似表示は色票の代替だと表示しません。",
+      "referenceIds": [
+        "aft-products",
+        "canon-mixing",
+        "css-color4",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day06-q01",
+      "sectionId": "color26-day06-s1",
+      "category": "表色系",
+      "prompt": "表色系を使う主な理由として適切なのは？",
+      "explanation": "どの方法で色を表したかが分かると、伝達と整理がしやすくなります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色を一定の方法で整理して伝えるため"
+        },
+        {
+          "id": "c2",
+          "text": "見る人の好みを一つに決めるため"
+        },
+        {
+          "id": "c3",
+          "text": "どの端末でも印刷色を保証するため"
+        },
+        {
+          "id": "c4",
+          "text": "配色を観察しなくてよくするため"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day06-q02",
+      "sectionId": "color26-day06-s1",
+      "category": "表色系",
+      "prompt": "取引先から「色の値は50」とだけ届いた。最初の確認は？",
+      "explanation": "数字単独では、何の体系・成分・単位か分かりません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "どの体系でも50は同じ色だと扱う"
+        },
+        {
+          "id": "c2",
+          "text": "どの表色系のどの成分か"
+        },
+        {
+          "id": "c3",
+          "text": "HSLのLが50だと確認せずに決める"
+        },
+        {
+          "id": "c4",
+          "text": "RGBのR成分が50だと確認せずに決める"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day06-q03",
+      "sectionId": "color26-day06-s1",
+      "category": "表色系",
+      "prompt": "PCCSを説明する組合せとして適切なのは？",
+      "explanation": "PCCSのHue-Toneという整理の軸を確認します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "光の三原色の成分量だけを並べる体系"
+        },
+        {
+          "id": "c2",
+          "text": "印刷のインク量だけを指定する体系"
+        },
+        {
+          "id": "c3",
+          "text": "色相とトーンを手掛かりに整理できる体系"
+        },
+        {
+          "id": "c4",
+          "text": "すべての色を色相だけで区別する体系"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day06-q04",
+      "sectionId": "color26-day06-s1",
+      "category": "表色系",
+      "prompt": "CSSのHSLとPCCSの関係は？",
+      "explanation": "表示形式と配色体系の違いを明示します。根拠のない対応表は作りません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "HSLのLがPCCS明度に完全一致する"
+        },
+        {
+          "id": "c2",
+          "text": "HSLのSがPCCS彩度の単位になる"
+        },
+        {
+          "id": "c3",
+          "text": "どちらも印刷用インクの比率である"
+        },
+        {
+          "id": "c4",
+          "text": "別の体系であり、同じ数値をそのまま対応させない"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day06-q05",
+      "sectionId": "color26-day06-s2",
+      "category": "表色系",
+      "prompt": "適当なRGB値へ「PCCS公式色票」と表示したアプリの問題は？",
+      "explanation": "RGBで見せること自体ではなく、根拠なく公式の正確な再現と称する点が問題です。",
+      "referenceIds": [
+        "aft-products",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "根拠のない近似を正確な公式色票と扱っている"
+        },
+        {
+          "id": "c2",
+          "text": "RGBの指定は一切できないこと"
+        },
+        {
+          "id": "c3",
+          "text": "数字が多ければ必ず正確なこと"
+        },
+        {
+          "id": "c4",
+          "text": "公式という文字があれば実物確認は不要なこと"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day06-q06",
+      "sectionId": "color26-day06-s2",
+      "category": "表色系",
+      "prompt": "印刷見本へ配色を渡す際に補う情報は？",
+      "explanation": "用紙・インクなどの違いがあるため、画面での指定だけでは見えを保証できません。",
+      "referenceIds": [
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "出力先を確認せずRGB値だけを渡す"
+        },
+        {
+          "id": "c2",
+          "text": "出力条件や実物での確認方法"
+        },
+        {
+          "id": "c3",
+          "text": "色名だけで紙やインクの違いを省く"
+        },
+        {
+          "id": "c4",
+          "text": "画面で一致すれば校正を省くと決める"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day06-q07",
+      "sectionId": "color26-day06-s2",
+      "category": "表色系",
+      "prompt": "RGB値を保存したことから、そのまま言えるのは？",
+      "explanation": "指定値の記録と、現物や知覚の測定は別です。",
+      "referenceIds": [
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "すべての端末で同じ印象が保証される"
+        },
+        {
+          "id": "c2",
+          "text": "PCCSカードの現物を検査済みである"
+        },
+        {
+          "id": "c3",
+          "text": "そのデータで指定した成分値を再確認できる"
+        },
+        {
+          "id": "c4",
+          "text": "日光と照明下の見えを測定済みである"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day06-q08",
+      "sectionId": "color26-day06-s2",
+      "category": "表色系",
+      "prompt": "2つの配色を比較する記録として役立つものは？",
+      "explanation": "比較の条件が残っていれば、何を変え、どこで確認したか追えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "canon-mixing",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "「いつもの青」とだけ書く"
+        },
+        {
+          "id": "c2",
+          "text": "確認した媒体を書かない"
+        },
+        {
+          "id": "c3",
+          "text": "出力前後の違いを消してしまう"
+        },
+        {
+          "id": "c4",
+          "text": "体系・値・背景・用途を併記する"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

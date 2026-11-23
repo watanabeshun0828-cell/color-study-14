@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day07",
+  "day": 7,
+  "title": "PCCSの色相とトーンを学ぶ",
+  "category": "表色系",
+  "goals": [
+    "PCCSの色相環とトーンの役割を分ける",
+    "同じトーンを同じ明度値と決めつけない"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "jcri-pccs",
+    "css-color4",
+    "practice-assumptions",
+    "aft-products"
+  ],
+  "sections": [
+    {
+      "id": "color26-day07-s1",
+      "title": "色相を環で整理する",
+      "paragraphs": [
+        "PCCSの色相は24の区分からなる環で整理されます。環にすると、近い色相や離れた色相の関係を考えやすくなります。ただし、CSSの角度を15度刻みにしただけで、公式のPCCS色票になるわけではありません。",
+        "配色の関係を学ぶときは、何の体系の色相環かを確かめます。このアプリの操作用の角度はHSLの数値で、PCCSの番号を測定しているものではありません。概念の学習と画面の試作を分けます。"
+      ],
+      "keyPoint": "PCCSの24色相とHSLの角度は、そのまま同じものではありません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day07-s2",
+      "title": "トーンは色の調子をまとめる",
+      "paragraphs": [
+        "トーンは明度と彩度を組み合わせた色の調子です。淡い、鮮やか、暗いといった共通の特徴を整理する手掛かりになります。色相が違っていても、トーンの共通性に注目して配色を考えられます。",
+        "同じトーンを選ぶことは、異なる色相でも明度値がすべて同じになるという意味ではありません。実際の色票や体系の定義を確認し、画面上では近似の試作として比べます。印象の説明には、どの特徴を共通にしたかを書きましょう。"
+      ],
+      "keyPoint": "トーンは明度と彩度を複合して考えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day07-q01",
+      "sectionId": "color26-day07-s1",
+      "category": "表色系",
+      "prompt": "PCCSの色相環の基本区分数は？",
+      "explanation": "PCCSは24色相で整理します。360という角度の目盛りとは区別します。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "24"
+        },
+        {
+          "id": "c2",
+          "text": "3"
+        },
+        {
+          "id": "c3",
+          "text": "100"
+        },
+        {
+          "id": "c4",
+          "text": "360"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day07-q02",
+      "sectionId": "color26-day07-s1",
+      "category": "表色系",
+      "prompt": "トーンが組み合わせて扱う性質は？",
+      "explanation": "トーンは明度と彩度を複合した色の調子として捉えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相と面積"
+        },
+        {
+          "id": "c2",
+          "text": "明度と彩度"
+        },
+        {
+          "id": "c3",
+          "text": "色相と照明の明るさ"
+        },
+        {
+          "id": "c4",
+          "text": "反射と透過"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day07-q03",
+      "sectionId": "color26-day07-s1",
+      "category": "表色系",
+      "prompt": "「赤系か青系か」と「淡いか暗いか」を分ける説明は？",
+      "explanation": "色みと色の調子を分けることで、配色のまとまりや変化を説明しやすくなります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "前者はトーン、後者は色相を考える手掛かり"
+        },
+        {
+          "id": "c2",
+          "text": "前者は彩度、後者は色相を考える手掛かり"
+        },
+        {
+          "id": "c3",
+          "text": "前者は色相、後者はトーンを考える手掛かり"
+        },
+        {
+          "id": "c4",
+          "text": "どちらも明度だけを表す"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day07-q04",
+      "sectionId": "color26-day07-s2",
+      "category": "表色系",
+      "prompt": "色相の違う2色を、共通した淡い調子でまとめたい。注目するものは？",
+      "explanation": "明度・彩度を複合した調子を手掛かりに、色相とは別の共通点を考えます。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず同じ色名であること"
+        },
+        {
+          "id": "c2",
+          "text": "面積を0にすること"
+        },
+        {
+          "id": "c3",
+          "text": "背景を記録しないこと"
+        },
+        {
+          "id": "c4",
+          "text": "トーンの共通性"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day07-q05",
+      "sectionId": "color26-day07-s2",
+      "category": "表色系",
+      "prompt": "同じPCCSトーンなら、色相が違っても明度値はすべて完全一致する？",
+      "explanation": "同じトーンの共通性と、全数値の一致は別です。色相による明度の違いもあります。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "そのようには限らず、体系の定義を確認する"
+        },
+        {
+          "id": "c2",
+          "text": "必ず完全一致する"
+        },
+        {
+          "id": "c3",
+          "text": "PCCSには明度の考え方がない"
+        },
+        {
+          "id": "c4",
+          "text": "すべてRGBのR値が同じになる"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day07-q06",
+      "sectionId": "color26-day07-s1",
+      "category": "表色系",
+      "prompt": "HSLのHを15度ずつ並べた見本を作った。正しい表示は？",
+      "explanation": "数値で環を描けても、PCCSの正確な色票の再現になるわけではありません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "css-color4",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "PCCS公式24色票と断定する"
+        },
+        {
+          "id": "c2",
+          "text": "独自のHSL色相見本として表示する"
+        },
+        {
+          "id": "c3",
+          "text": "実物カードの測定済み一覧と断定する"
+        },
+        {
+          "id": "c4",
+          "text": "すべての印刷色を保証すると表示する"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day07-q07",
+      "sectionId": "color26-day07-s2",
+      "category": "表色系",
+      "prompt": "「淡い」と「鮮やか」を比べるとき、説明に必要なのは？",
+      "explanation": "色の調子の違いを説明する学習です。人の好みの優劣を付けるものではありません。",
+      "referenceIds": [
+        "jcri-pccs",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色名の長さだけを根拠にする"
+        },
+        {
+          "id": "c2",
+          "text": "両者は同じ明度と彩度だと決める"
+        },
+        {
+          "id": "c3",
+          "text": "どの明度・彩度の傾向を手掛かりにしたか"
+        },
+        {
+          "id": "c4",
+          "text": "色相が違うから比較できないと決める"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day07-q08",
+      "sectionId": "color26-day07-s2",
+      "category": "表色系",
+      "prompt": "PCCSの学習を画面だけで終えないために補うものは？",
+      "explanation": "画面の近似は物理的な色票やその条件での学習を置き換えるものではありません。",
+      "referenceIds": [
+        "aft-products",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "任意のRGB値を公式値と呼ぶこと"
+        },
+        {
+          "id": "c2",
+          "text": "印象をすべて数値の正誤へ変えること"
+        },
+        {
+          "id": "c3",
+          "text": "近似と実物の区別を消すこと"
+        },
+        {
+          "id": "c4",
+          "text": "利用条件を確認した実物のカラーカードでの配色練習"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}

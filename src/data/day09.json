@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "color26-day09",
+  "day": 9,
+  "title": "周囲・面積で変わる見えを比べる",
+  "category": "色彩心理",
+  "goals": [
+    "対比と同化の考え方を分ける",
+    "同じ指定値でも見えが変わり得ると理解する"
+  ],
+  "referenceIds": [
+    "aft-toc",
+    "cie-contrast",
+    "cie-induction",
+    "practice-assumptions"
+  ],
+  "sections": [
+    {
+      "id": "color26-day09-s1",
+      "title": "同じ色でも周囲が違う",
+      "paragraphs": [
+        "同じ色の小さな面を、明るい背景と暗い背景に置くと、異なって感じられることがあります。見えの差が強まる側の現象を対比として考えます。指定した色の数値が書き換わったこととは区別します。",
+        "細かい線や模様などが周囲とまとまって見える同化も、色の見えを考える手掛かりです。同じ配置で必ず全員に同じ変化が見えると決めず、数値と配置を記録して観察します。色の見えには隣接する部分の影響も関わります。"
+      ],
+      "keyPoint": "色の指定値と、周囲との関係による見えを分けます。",
+      "referenceIds": [
+        "cie-contrast",
+        "cie-induction",
+        "aft-toc",
+        "practice-assumptions"
+      ]
+    },
+    {
+      "id": "color26-day09-s2",
+      "title": "面積と見比べ方を確かめる",
+      "paragraphs": [
+        "小さな色見本で選んだ色を大きな面へ使うと、強さなどの印象が違って感じられることがあります。面積を変えた比較は、壁や服、背景など、実際に色を使う大きさを考える練習になります。",
+        "変化を調べるときは、対象色を固定して面積だけを変えるなど、比較条件を絞ります。直前に見た色が後の見えへ関わる継時的な効果もありますが、アプリは見え方の診断や微妙な色差だけの採点を行いません。"
+      ],
+      "keyPoint": "色・周囲・面積・見比べ方の条件を記録します。",
+      "referenceIds": [
+        "cie-contrast",
+        "aft-toc",
+        "practice-assumptions"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "color26-day09-q01",
+      "sectionId": "color26-day09-s1",
+      "category": "色彩心理",
+      "prompt": "同じ灰色パッチを明るい背景と暗い背景に置いた。異なって感じたときの考え方は？",
+      "explanation": "指定値が同じでも、周囲との関係が見えへ影響する場合があります。",
+      "referenceIds": [
+        "cie-contrast",
+        "cie-induction",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "周囲との関係による見えの変化を考える"
+        },
+        {
+          "id": "c2",
+          "text": "必ずパッチのRGB値が自動変更されたと決める"
+        },
+        {
+          "id": "c3",
+          "text": "見る人が全員同じ変化を感じると保証する"
+        },
+        {
+          "id": "c4",
+          "text": "物理的な面積と色の印象を同じ単位とする"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day09-q02",
+      "sectionId": "color26-day09-s1",
+      "category": "色彩心理",
+      "prompt": "色同士の見えの差が強まる側の現象を整理する言葉は？",
+      "explanation": "色の対比は、複数部分の見えの差に関係する概念です。",
+      "referenceIds": [
+        "cie-contrast",
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "同化"
+        },
+        {
+          "id": "c2",
+          "text": "対比"
+        },
+        {
+          "id": "c3",
+          "text": "色名の翻訳"
+        },
+        {
+          "id": "c4",
+          "text": "印刷データの保存"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day09-q03",
+      "sectionId": "color26-day09-s1",
+      "category": "色彩心理",
+      "prompt": "細かい線が周囲の色とまとまって見える現象の学習項目は？",
+      "explanation": "周囲に近づいて感じられる見えを、同化として考えます。微妙な見分けだけで採点しません。",
+      "referenceIds": [
+        "cie-induction",
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "貸借"
+        },
+        {
+          "id": "c2",
+          "text": "原色の数の増加"
+        },
+        {
+          "id": "c3",
+          "text": "同化"
+        },
+        {
+          "id": "c4",
+          "text": "物体の温度測定"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day09-q04",
+      "sectionId": "color26-day09-s1",
+      "category": "色彩心理",
+      "prompt": "背景による違いを調べたい。固定する条件として適切なのは？",
+      "explanation": "変える条件を背景に絞ることで、比較の理由を説明しやすくなります。",
+      "referenceIds": [
+        "cie-induction",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "背景と対象を毎回すべて変える"
+        },
+        {
+          "id": "c2",
+          "text": "一方の比較画像を隠す"
+        },
+        {
+          "id": "c3",
+          "text": "表示した数値を残さない"
+        },
+        {
+          "id": "c4",
+          "text": "対象パッチの色の値と大きさ"
+        }
+      ],
+      "correctChoiceId": "c4"
+    },
+    {
+      "id": "color26-day09-q05",
+      "sectionId": "color26-day09-s2",
+      "category": "色彩心理",
+      "prompt": "小さな見本の色を壁全体へ使うとき、追加するとよい確認は？",
+      "explanation": "面積が変わると印象が変わることがあるため、用途に近づけて確認します。",
+      "referenceIds": [
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "実際に近い面積や周囲の条件での確認"
+        },
+        {
+          "id": "c2",
+          "text": "見本の一画素だけで最終決定"
+        },
+        {
+          "id": "c3",
+          "text": "面積の違いを必ず無関係とする"
+        },
+        {
+          "id": "c4",
+          "text": "見た人の感想を数値だけで否定する"
+        }
+      ],
+      "correctChoiceId": "c1"
+    },
+    {
+      "id": "color26-day09-q06",
+      "sectionId": "color26-day09-s2",
+      "category": "色彩心理",
+      "prompt": "同じ指定色を、10%と40%の面積で見比べる。変えた条件は？",
+      "explanation": "色の値を固定した設例では、変えたのは面積の比率です。見えた印象は別に記録します。",
+      "referenceIds": [
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "色相の指定値"
+        },
+        {
+          "id": "c2",
+          "text": "色面の占める割合"
+        },
+        {
+          "id": "c3",
+          "text": "PCCSの版"
+        },
+        {
+          "id": "c4",
+          "text": "照明を実測した波長"
+        }
+      ],
+      "correctChoiceId": "c2"
+    },
+    {
+      "id": "color26-day09-q07",
+      "sectionId": "color26-day09-s2",
+      "category": "色彩心理",
+      "prompt": "直前に見た色が、その後の見えに関わる効果の整理として合うのは？",
+      "explanation": "同時に並べる比較と、前後に見たものの影響を分けて考えます。",
+      "referenceIds": [
+        "cie-contrast",
+        "aft-toc",
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "二つの画像が常に同時にあることだけ"
+        },
+        {
+          "id": "c2",
+          "text": "RGBの成分数が変わること"
+        },
+        {
+          "id": "c3",
+          "text": "継時的な見えの効果"
+        },
+        {
+          "id": "c4",
+          "text": "用紙の原価だけの違い"
+        }
+      ],
+      "correctChoiceId": "c3"
+    },
+    {
+      "id": "color26-day09-q08",
+      "sectionId": "color26-day09-s2",
+      "category": "色彩心理",
+      "prompt": "比較ワークで自分には大きな差が分からなかった。適切な記録は？",
+      "explanation": "学習では条件を追い、観察結果を正直に記録します。見えの診断や能力判定とは異なります。",
+      "referenceIds": [
+        "practice-assumptions"
+      ],
+      "assumptions": "独自の理解確認問題。架空の制作場面と操作値は練習用の仮定です。HSLの画面見本は公式PCCS色票ではありません。",
+      "calculations": [],
+      "format": "choice",
+      "choices": [
+        {
+          "id": "c1",
+          "text": "必ず不合格だと判断する"
+        },
+        {
+          "id": "c2",
+          "text": "見えなかったので数値も違うと決める"
+        },
+        {
+          "id": "c3",
+          "text": "他人と同じ感想になるまで記録を変える"
+        },
+        {
+          "id": "c4",
+          "text": "指定値と配置を確認し、観察できたことをそのまま書く"
+        }
+      ],
+      "correctChoiceId": "c4"
+    }
+  ]
+}
